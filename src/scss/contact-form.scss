@@ -1,0 +1,79 @@
+.contact-form {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(30,30,30,0.95);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 120px;
+  z-index: 100;
+  text-align: center;
+}
+
+.contact-form__close {
+  cursor: pointer;
+}
+
+.contact-form__close img {
+  width: auto !important; // override containter img width
+}
+
+.contact-form__content {
+  display: none;
+  width: 420px;
+  margin: 0 auto;
+}
+
+.contact-form__submit {
+  width: 100% !important;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  display: none;
+  animation: fadeInUp 0.5s;
+}
+
+input[type=email],
+input[type=text],
+textarea {
+  background-color: white;
+  border: 0px;
+  padding: 0px 15px;
+  width: 100%;
+  height: 46px;
+  font-family: $font-primary;
+  font-size: 14px;
+  color: $color-dark;
+  display: block;
+}
+
+textarea {
+  height: 80px;
+  padding-top: 7px;
+}
+
+input[type=submit] {
+  -webkit-appearance: none;
+  background: none;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input:active {
+  background-color: $color-middle;
+}

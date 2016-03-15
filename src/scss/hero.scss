@@ -1,0 +1,98 @@
+.hero {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: url(/../img/house.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+  .hero {
+    background: none;
+    position: relative;
+    height: auto;
+  }
+}
+
+.hero__logo {
+  position: fixed;
+  max-width: 100%;
+  top: 50%;
+  left: 50%;
+  padding: 60px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 500px) {
+  .hero__logo {
+    position: relative;
+    -webkit-transform: initial;
+    -moz-transform: initial;
+    -o-transform: initial;
+    transform: initial;
+    top: initial;
+    left: initial;
+  }
+}
+
+.hero__arrow {
+  position: fixed;
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid rgba(255,255,255,0.5);
+  bottom: 50px;
+  left: 50%;
+  margin-left: -15px;
+}
+
+.hero__arrow--link {
+  position: fixed;
+  height: 0; 
+  padding: 40px;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -85px;
+}
+
+@media screen and (max-width: 500px) {
+  .hero__arrow {
+    display: none;
+  }
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -14px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -7px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.bounce {
+  animation: bounce 1.5s infinite;
+  transform-origin: center bottom;
+}

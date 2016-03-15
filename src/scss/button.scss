@@ -1,0 +1,35 @@
+button {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none;
+}
+
+.button,
+a.button, {
+  text-transform: uppercase;
+  padding: $medium-space $large-space;
+  border: 3px solid $color-light;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+a.button {
+  display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+  .button,
+  a.button {
+    padding: $small-space $medium-space;
+    border: 2px solid $color-light;
+    font-size: 12px;
+  }
+}
+
+.button:hover {
+  color: $color-dark;
+  background-color: $color-light;
+}

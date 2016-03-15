@@ -1,0 +1,118 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// styles
+
+h1 {
+  font-family: $font-headline;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 72px;
+  line-height: 72px;
+}
+
+h2, .text--large {
+  font-family: $font-primary;
+  font-size: 32px;
+  line-height: 40px;
+  font-style: normal;
+  font-weight: 200;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+h3 {
+  font-family: $font-primary;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+}
+
+blockquote {
+  font-family: $font-headline;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center; 
+  margin: 0;
+}
+
+blockquote::before {
+  content: '\201C';
+  margin-right: -10px;
+}
+
+blockquote::after {
+  content: '\201D';
+  margin-left: -14px;
+}
+
+@media screen and (max-width: 680px) {
+  blockquote {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+.paragraph-break {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 0;
+  width: 40px;
+  height: 1px;
+  background-color: $color-dark;
+
+}
+
+// links
+
+a, 
+a:link, 
+a:visited, 
+a:hover, 
+a:active {
+  text-decoration: none;
+  color: $color-middle;
+  border-bottom: 1px solid $color-middle;
+}
+
+a.link--plain {
+  text-decoration: none;
+  color: $color-light;
+  border-bottom: 0px;
+}
+
+// lists
+
+ul,
+ol,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+ol,
+ol li {
+  list-style-type: decimal;
+}
