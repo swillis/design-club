@@ -6,7 +6,7 @@ html {
 // styles
 
 h1 {
-  font-family: $font-headline;
+  font-family: $font-primary;
   font-weight: 700;
   font-style: bold;
   font-size: 72px;
@@ -14,9 +14,9 @@ h1 {
 }
 
 h2, .text--large {
-  font-family: $font-primary;
-  font-size: 32px;
-  line-height: 40px;
+  font-family: $font-primary-light;
+  font-size: 24px;
+  line-height: 32px;
   font-style: normal;
   font-weight: 200;
   margin-top: 0px;
@@ -47,7 +47,7 @@ p {
 }
 
 blockquote {
-  font-family: $font-headline;
+  font-family: $font-primary;
   font-weight: 400;
   font-style: italic;
   font-size: 50px;
@@ -92,13 +92,12 @@ a:visited,
 a:hover, 
 a:active {
   text-decoration: none;
-  color: $color-middle;
-  border-bottom: 1px solid $color-middle;
+  color: $color-highlight;
 }
 
 a.link--plain {
   text-decoration: none;
-  color: $color-light;
+  color: $color-highlight;
   border-bottom: 0px;
 }
 

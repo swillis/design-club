@@ -1,12 +1,14 @@
-$font-primary: 'brandontext';
-$font-headline: 'brandontext';
-$font-quote: 'brandontext';
-$font-meta: 'brandontext';
+@import "fonts";
 
-$color-dark: #1E1E1E;
+$font-primary-light: 'Whitney-light', 'Helvetica Neue', 'Helvetica', arial;
+$font-primary: 'Whitney-book', 'Helvetica Neue', 'Helvetica', arial;
+$font-primary-bold: 'Whitney-bold', 'Helvetica Neue', 'Helvetica', arial;
+
+$color-dark: #222222;
+$color-light: #F7F7F7;
+$color-background: #96E1D8;
+$color-highlight: #F42B5A;
 $color-middle: #F8F8F8;
-$color-light: #FFFFFF;
-$color-highlight: yellow;
 
 $xlarge-space: 60px;
 $large-space: 20px;

@@ -1,67 +1,83 @@
 .section {
-  padding-top: 180px;
-  padding-bottom: 180px;
-  border-bottom: 1px rgba(255,255,255,0.5) solid;
+  padding-top: 48px;
   text-align: center;
 }
 
+.section:last-of-type {
+  padding-bottom: 48px;
+}
+
 @media screen and (max-width: 960px) {
   .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 48px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  .section:first-of-type {
-    padding-top: 0;
+    padding-top: 48px;
   }
 }
 
-.section__service__group {
+.section-divider {
+  position: absolute;
+  left: 50%;
+  margin-top: -23px;
+}
+
+.section-divider__heading {
+  position: relative;
+  left: -50%;
+  padding: 0 12px;
+  background-color: $color-light; 
+}
+
+.section__inner {
+  margin-top: 24px;
+  padding: 24px;
+  background-color: white;
+}
+
+.section--speaker {
+  margin-bottom: 24px;
+  padding-bottom: 21px; // less because inline-block adds space
+  border-bottom: 1px solid $color-background;
+  text-align: left;
+}
+
+.section--speaker:last-of-type {
+  margin-botom: 0;
+  padding-bottom: 0;
+  border: 0;
+}
+
+@media screen and (max-width: 680px) {
+  .section--speaker {
+    text-align: center;
+  }
+}
+
+.section--speaker__img {
+  max-width: 150px !important;
+  margin-right: 21px; // less because inline-block adds space
   display: inline-block;
-  width: auto;
 }
 
-@media screen and (max-width: 960px) {
-  .section__service__group {
-    display: inline-block;
-    width: 460px;
-    margin-bottom: 60px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .section__service__group {
+@media screen and (max-width: 680px) {
+  .section--speaker__img {
+    margin: 0 auto;
     display: block;
-    width: auto;
-    margin-bottom: 0;
   }
 }
 
-.section__service {
-  max-width: 226px;
+.section--speaker__bio {
+  width: 70%;
   display: inline-block;
-  text-align: center;
-  padding: 0px $large-space;
+  vertical-align: top;
 }
 
-@media screen and (max-width: 500px) {
-  .section__service {
-    margin-bottom: 60px;
+@media screen and (max-width: 680px) {
+  .section--speaker__bio {
+    width: 100%;
   }
-
-  .section__service__group:last-child {
-    margin-bottom: -60px; // Stopping extra space before end of section
-  }
-}
-
-.section__service__img {
-  width: 60px !important; // Override default image styles
-  opacity: 0.5;
 }

@@ -1,0 +1,21 @@
+.container {
+  max-width: 740px;
+  position: relative;
+  margin: 0 auto;
+  padding: 0px 20px; 
+}
+
+@media screen and (max-width: 680px) {
+  .container {
+    margin-top: 15px;
+  }
+}
+
+.container img {
+  width: 100%;
+}
+
+.container__inner {
+  max-width: 620px;
+  margin: 0 auto;
+}

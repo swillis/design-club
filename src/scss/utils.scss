@@ -194,6 +194,11 @@
 	font-weight: 400;
 }
 
+.u-text-heavy {
+  font-family: $font-primary-bold;
+  font-weight: 700;
+}
+
 .u-text-small {
   font-size: 14px;
   line-height: 24px;
@@ -212,7 +217,7 @@
 }
 
 .u-text-italic {
-  font-family: $font-headline;
+  font-family: $font-primary;
   font-style: italic;
 }
 

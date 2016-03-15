@@ -96,7 +96,7 @@ module.exports = function(grunt) {
       dev: {
 
         options: {
-          compress: true,
+          compress: {},
           mangle: true,
           preserveComments: false,
         },
