@@ -14,9 +14,9 @@
 
 @media screen and (max-width: 500px) {
   .hero {
-    background: none;
     position: relative;
     height: auto;
+    padding-bottom: 22px;
   }
 }
 
@@ -42,7 +42,7 @@
     transform: initial;
     top: initial;
     left: initial;
-    padding: 80px 5px 0 5px;
+    padding: 60px 5px 0 5px;
   }
 }
 
@@ -68,11 +68,13 @@
 
 @media screen and (max-width: 500px) {
   .hero__event {
-    position: absolute;
-    width: 90%;
+    position: relative;
+    max-width: 100%;
     height: auto;
-    top: 20px;
+    margin-top: -200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    right: 0;
     text-align: center;
-    margin-bottom: 20px;
   }
 }
