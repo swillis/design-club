@@ -1,0 +1,13 @@
+.main {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 100vh;
+  background-color: $color-light;
+  box-shadow: 0px -20px 60px 0px rgba(30,30,30,0.1);
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    margin-top: 0;
+  }
+}
