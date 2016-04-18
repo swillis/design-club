@@ -34,14 +34,16 @@
 
 @media screen and (max-width: 500px) {
   .hero__logo {
-    position: relative;
+    position: absolute;
     max-width: 100%;
+    margin: 0 auto;
     -webkit-transform: initial;
     -moz-transform: initial;
     -o-transform: initial;
     transform: initial;
     top: initial;
-    left: initial;
+    right: 0;
+    left: 0;
     padding: 60px 5px 0 5px;
   }
 }
@@ -71,10 +73,13 @@
     position: relative;
     max-width: 100%;
     height: auto;
-    margin-top: -200px;
-    margin-right: 20px;
-    margin-left: 20px;
+    top: 20px;
     right: 0;
+    left: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 43%;
     text-align: center;
   }
 }

@@ -38,6 +38,16 @@
   background-color: white;
 }
 
+.section__inner--short-line {
+  width: 66.66%;
+}
+
+@media screen and (max-width: 500px) {
+  .section__inner--short-line {
+    width: 100%;
+  }
+}
+
 .section--speaker {
   margin-bottom: 24px;
   padding-bottom: 21px; // less because inline-block adds space
