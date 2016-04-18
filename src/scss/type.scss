@@ -13,13 +13,14 @@ h1 {
   line-height: 72px;
 }
 
-h2, .text--large {
+h2 {
   font-family: $font-primary-light;
   font-size: 24px;
   line-height: 32px;
   font-style: normal;
   font-weight: 200;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 500px) {
