@@ -68,7 +68,7 @@
 }
 
 .section--speaker__img {
-  max-width: 171px !important;
+  max-width: 170px !important;
   margin-right: 21px; // less because inline-block adds space
   display: inline-block;
 }
@@ -84,7 +84,7 @@
   width: 70%;
   display: inline-block;
   vertical-align: top;
-  margin-top: -1px // to get bottom row of type lined up with bottom of image
+  margin-top: -2px // to get bottom row of type lined up with bottom of image
 }
 
 @media screen and (max-width: 680px) {
