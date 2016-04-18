@@ -23,8 +23,8 @@
 }
 
 @media screen and (max-width: 500px) {
-  .header__menu {
-    display: none;
+  .header {
+    visibility: hidden; // cancel out the 'display: block; being added in app.js
   }
 }
 
