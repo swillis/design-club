@@ -1,3 +1,9 @@
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0; 
+  border-radius: 0;
+}
+
 input[type=email],
 input[type=text],
 textarea {
@@ -30,6 +36,8 @@ input:active {
 @media screen and (max-width: 500px) {
   input[type=email],
   input[type=text] {
-    width: 167px;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
   }
 }
