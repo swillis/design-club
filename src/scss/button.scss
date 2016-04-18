@@ -8,28 +8,21 @@ button {
 
 .button,
 a.button, {
-  text-transform: uppercase;
-  padding: $medium-space $large-space;
-  border: 3px solid $color-light;
-  font-size: 14px;
+  height: 46px;
+  padding: 0px 15px;
+  border: 0;
+  background: black !important;
+  font-size: 16px;
   font-weight: bold;
-  transition: all 0.2s ease-in-out;
+  color: white;
+  transition: all 0.15s ease-in-out;
+  margin-top: 12px;
 }
 
 a.button {
   display: inline-block;
 }
 
-@media screen and (max-width: 500px) {
-  .button,
-  a.button {
-    padding: $small-space $medium-space;
-    border: 2px solid $color-light;
-    font-size: 12px;
-  }
-}
-
 .button:hover {
-  color: $color-dark;
-  background-color: $color-light;
+  background: $color-background !important;
 }
