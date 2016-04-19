@@ -2,3 +2,6 @@
 copy.md
 .sass-cache
 .sass-cache/*
+.sass-cache/
+.grunt
+.grunt/*
