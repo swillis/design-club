@@ -96,6 +96,11 @@ a:active {
   color: $color-highlight;
 }
 
+a.link--secondary {
+  color: $color-dark;
+  text-decoration: underline;
+}
+
 a.link--plain {
   text-decoration: none;
   color: $color-highlight;
