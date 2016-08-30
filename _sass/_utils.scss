@@ -1,0 +1,65 @@
+.u-cf {
+  &:before,
+  &:after {
+    display: table;
+    content: " ";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.u-float-left {
+  float: left;
+}
+
+.u-float-right {
+  float: right;
+}
+
+.u-relative {
+  position: relative;
+}
+
+.u-absolute {
+  position: absolute;
+}
+
+.u-block {
+  display: block;
+}
+
+.u-inline {
+  display: inline;
+}
+
+.u-inline-block {
+  display: inline-block;
+}
+
+.u-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: none;
+}
+
+.u-align-top {
+  vertical-align: top;
+}
+
+.u-align-middle {
+  vertical-align: middle;
+}
+
+.u-align-baseline {
+  vertical-align: baseline;
+}
+
+.u-align-bottom {
+  vertical-align: bottom;
+}
+
+.u-width-full {
+  width: 100%;
+}

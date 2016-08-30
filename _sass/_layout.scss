@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: $font-weight-normal;
+  font-size: $text-small;
+  line-height: $line-height-small;
+  color: $color-base;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.site-wrapper {
+  max-width: $width-full;
+  margin: 0 auto;
+  padding: 0 $space-large;
+}
+
+@media screen and (max-width: $width-small) {
+  .site-wrapper {
+    padding: 0 $space-large / 2;
+  }
+}
+
+@media screen and (max-width: $width-mobile) {
+  .site-wrapper {
+    padding: 0;
+  }
+}

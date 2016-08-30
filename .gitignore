@@ -1,7 +1,3 @@
-*.tmproj
-copy.md
+_site
 .sass-cache
-.sass-cache/*
-.sass-cache/
-.grunt
-.grunt/*
+.jekyll-metadata
