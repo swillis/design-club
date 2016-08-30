@@ -2,9 +2,13 @@
 layout: home
 ---
 
-<div class="home">
+<div class="site-wrapper">
 
-  <h1 class="page-heading">Hello, motherfuckas!</h1>
+  <h1>Where the creative community figure out what's next.</h1>
+  <h2>Where the creative community figure out what's next.</h2>
+  <h3>Where the creative community figure out what's next.</h3>
+  <p class="text-medium">Where the creative community figure out what's next.</p>
+  <p class="text-small">Where the creative community figure out what's next.</p>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -17,7 +21,5 @@ layout: home
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
