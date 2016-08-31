@@ -1,0 +1,19 @@
+.container {
+  margin-bottom: $space-large;
+  padding: $space-large;
+}
+
+@media screen and (max-width: $width-medium) {
+  .container {
+    margin-bottom: $space-medium;
+  }
+}
+
+@media screen and (max-width: $width-mobile) {
+  .container {
+    padding: $space-medium;
+    margin-left: $space-small;
+    margin-right: $space-small;
+    margin-bottom: $space-small;
+  }
+}

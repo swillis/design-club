@@ -1,0 +1,72 @@
+.next-event__details {
+  overflow: auto; // to give it height!
+}
+
+.next-event__details__about {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 260px;
+}
+
+.next-event__details__about--content {
+  position: absolute;
+  padding-right: $space-medium;
+  bottom: 0;
+}
+
+.next-event__details__map {
+  float: right;
+  width: calc(50% - 20px);
+  height: 260px;
+}
+
+@media screen and (max-width: $width-medium) {
+  .next-event__details__about,
+  .next-event__details__map {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  .next-event__details__about {
+    height: auto;
+    margin-bottom: $space-medium;
+  }
+
+  .next-event__details__about--content {
+    position: relative;
+    margin-top: $space-medium;
+  }
+}
+
+.next-event__speakers {
+  clear: both;
+  margin-top: $space-large;
+}
+
+.next-event__speaker-1 {
+  float: left;
+  width: 50%;
+  padding-right: $space-medium;
+}
+
+.next-event__speaker-2 {
+  float: right;
+  width: 50%;
+  padding-left: $space-medium;
+}
+
+@media screen and (max-width: $width-medium) {
+  .next-event__speaker-1, 
+  .next-event__speaker-2 {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .next-event__speaker-1 {
+    margin-bottom: $space-medium;
+  }
+}

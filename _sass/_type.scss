@@ -27,6 +27,14 @@ h3 {
   margin: 0;
 }
 
+.text-large {
+  font-family: $font-primary;
+  font-size: $text-large;
+  line-height: $line-height-large;
+  color: $color-base;
+  margin: 0;
+}
+
 .text-medium {
   font-family: $font-primary;
   font-size: $text-medium;
@@ -41,6 +49,22 @@ h3 {
   line-height: $line-height-small;
   color: $color-base;
   margin: 0;
+}
+
+.text-primary {
+  color: $color-primary;
+}
+
+.text-secondary {
+  color: $color-secondary;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-heavy {
+  font-family: $font-primary-bold;
 }
 
 .text-center {

@@ -1,0 +1,24 @@
+.mailing-list {
+  padding: $space-x-large $space-large;
+  margin-bottom: $space-large;
+  transition: padding .2s ease;
+}
+
+@media screen and (max-width: $width-full - 1) {
+  .mailing-list {
+    padding: $space-large $space-large;
+  }
+}
+
+@media screen and (max-width: $width-medium) {
+  .mailing-list {
+    padding: $space-large $space-medium;
+    margin-bottom: $space-medium;
+  }
+}
+
+@media screen and (max-width: $width-mobile) {
+  .mailing-list {
+    margin-bottom: $space-small;
+  }
+}

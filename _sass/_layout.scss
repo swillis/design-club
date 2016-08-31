@@ -13,6 +13,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+img {
+  width: 100%;
+}
+
 .site-wrapper {
   max-width: $width-full;
   margin: 0 auto;
