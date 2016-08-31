@@ -8,6 +8,15 @@ h1 {
   margin: 0;
 }
 
+@media screen and (max-width: $width-mobile) {
+  h1 {
+    font-size: $text-large;
+    line-height: $line-height-large;
+    color: $color-primary;
+    letter-spacing: 1.2px;
+  }
+}
+
 h2 {
   font-family: $font-primary-bold;
   font-size: $text-large;
@@ -16,6 +25,14 @@ h2 {
   letter-spacing: 1.2px;
   text-transform: uppercase;
   margin: 0;
+}
+
+@media screen and (max-width: $width-mobile) {
+  h2 {
+    font-size: $text-medium;
+    line-height: $line-height-medium;
+    letter-spacing: 1px;
+  }
 }
 
 h3 {
@@ -33,6 +50,13 @@ h3 {
   line-height: $line-height-large;
   color: $color-base;
   margin: 0;
+}
+
+@media screen and (max-width: $width-mobile) {
+  .text-large {
+    font-size: $text-medium;
+    line-height: $line-height-medium;
+  }
 }
 
 .text-medium {

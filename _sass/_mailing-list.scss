@@ -22,3 +22,15 @@
     margin-bottom: $space-small;
   }
 }
+
+.mailing-list__text {
+  margin: 0 auto !important;
+  max-width: 480px;
+}
+
+.mailing-list__input {
+  max-width: 420px;
+  background-color: white;
+  padding: $space-small;
+  margin: 0 auto;
+}

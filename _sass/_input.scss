@@ -1,0 +1,48 @@
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0; 
+  border-radius: 0;
+}
+
+input[type=email],
+input[type=text],
+textarea {
+  width: 318px;
+  height: 46px;
+  background-color: white;
+  border: none;
+  padding: 0 $space-small;
+  margin: 0 auto;
+  font-size: $text-medium;
+  color: $color-base;
+}
+
+input[type=submit] {
+  -webkit-appearance: none;
+  background: none;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input:active {
+  background-color: white;
+}
+
+.input--email {
+  float: left;
+  margin-right: $space-small !important;
+}
+
+input[type=submit] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: $color-secondary;
+  color: white;
+  height: 46px;
+  float: right;
+  padding: 0 $space-medium;
+}
