@@ -21,6 +21,7 @@ img {
   max-width: $width-full;
   margin: 0 auto;
   padding: 0 $space-large;
+  background-color: white;
 }
 
 @media screen and (max-width: $width-small) {

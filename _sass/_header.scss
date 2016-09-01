@@ -1,0 +1,70 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  padding: $space-medium 0;
+  display: none;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 0 4px 12px 0 rgba(55,243,193,0.3);
+ }
+
+@media screen and (max-width: 720px) {
+  .header {
+    visibility: hidden; // cancel out the 'display: block; being added in app.js
+  }
+}
+
+.header__logo {
+  width: 60px;
+  margin-right: -60px; // offset the width of the logo for menu
+}
+
+.header__menu {
+  padding-top: 7px;
+}
+
+.header__tickets {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 37px;
+  line-height: 37px;
+  font-family: $font-primary-bold;
+  padding: 0 $space-small;
+  background-color: $color-secondary;
+  color: white;
+}
+
+@keyframes bounceInDown {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -1000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(0, -4px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInDown {
+  animation: bounceInDown 1s;
+  display: none;
+}
