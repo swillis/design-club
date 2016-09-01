@@ -4,7 +4,7 @@
   transition: padding .2s ease;
 }
 
-@media screen and (max-width: $width-full - 1) {
+@media screen and (max-width: $width-full) {
   .mailing-list {
     padding: $space-large $space-large;
   }

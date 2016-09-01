@@ -17,6 +17,22 @@ textarea {
   color: $color-base;
 }
 
+@media screen and (max-width: $width-medium) {
+  input[type=email],
+  input[type=text],
+  textarea {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: $width-mobile) {
+  input[type=email],
+  input[type=text],
+  textarea {
+    width: 220px;
+  }
+}
+
 input[type=submit] {
   -webkit-appearance: none;
   background: none;
