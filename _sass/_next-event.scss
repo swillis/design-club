@@ -1,42 +1,52 @@
-.next-event__details {
+.next-event {
   overflow: auto; // to give it height!
 }
 
-.next-event__details__about {
+.next-event__about {
   position: relative;
   float: left;
   width: 50%;
   height: 260px;
 }
 
-.next-event__details__about--content {
+.next-event__about--content {
   position: absolute;
   padding-right: $space-medium;
   bottom: 0;
 }
 
-.next-event__details__map {
+.next-event__map {
   float: right;
   width: calc(50% - 20px);
   height: 260px;
 }
 
+.next-event__buy {
+  display: none;
+}
+
 @media screen and (max-width: $width-medium) {
-  .next-event__details__about,
-  .next-event__details__map {
+  .next-event__about,
+  .next-event__map {
     float: none;
     width: 100%;
     padding: 0;
   }
 
-  .next-event__details__about {
+  .next-event__about {
     height: auto;
     margin-bottom: $space-medium;
   }
 
-  .next-event__details__about--content {
+  .next-event__about--content {
     position: relative;
     margin-top: $space-medium;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .next-event__buy {
+    display: block;
   }
 }
 

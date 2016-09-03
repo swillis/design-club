@@ -7,100 +7,11 @@ layout: home
   <p class="welcome-text__body text-large text-center">Every other month Design Club brings together designers of all disciplines and experience for drinks, good times, and original talks from leaders in our field. Speakers share their work, careers, and distinct perspectives on the industry.</p>
 </div>
 
-<div class="mailing-list bg-primary">
-  <h2 class="text-white text-center u-margin-Bxs">Join our mailing list</h2>
-  <p class="mailing-list__text text-medium text-white text-center u-padding-Bm">Sign up to be the first to get tickets (they go fast!) and for exclusive interviews with our amazing speakers.</p>
-  {% include mailchimp.html %}
-</div>
+{% include mailing-list.html %}
 
-<div class="container bg-base-light">
-  <div class="next-event__details">
-    <div class="next-event__details__about">
-      <p class="text-secondary">The next event</p>
-      <div class="next-event__details__about--content">
-        <h2 class="u-margin-Bxs">Design Club 3!</h2>
-        <p class="text-medium">We’ll be back on <span class="text-heavy">15th September 2016</span> at <span class="text-heavy">The Trampery</span> in Old Street, Shoreditch. <span class="text-heavy">Doors open at 6:30pm</span>. Make sure you arrive early for free drinks, free stickers, and more!</p>
-      </div>
-    </div>
-    <div class="next-event__details__map bg-white">
-      {% include map.html %}
-    </div>
-  </div>
+{% include next-event.html %}
 
-  <div class="next-event__speakers u-cf">
-    <div class="next-event__speaker-1">
-      <div class="next-event__speaker-meta u-margin-Bm">
-        <img src="img/speaker-image.jpg" class="next-event__speaker-image">
-        <div class="next-event__speaker-meta--text-box">
-          <div class="next-event__speaker-meta--text-bottom">
-            <h3 class="text-upper u-margin-Bxs">Chris Downer</h3>
-            <p class="text-primary">Designer, Sketch<br>
-            @chrisdowner</p>
-          </div>
-        </div>
-      </div>
-      <p>Tom is CEO and co-founder of Mondo, a new kind of bank who broke records in March, raising £1m of crowdfunding in 96 seconds. Tom previously founded GoCardless, a fintech startup that’s gone on to raise $25m. He’ll be sharing the stage with Hugo to talk about building a design-led business.</p>
-    </div>
+{% include latest-blog.html %}
 
-    <div class="next-event__speaker-2">
-      <div class="next-event__speaker-meta u-margin-Bm">
-        <img src="img/speaker-image.jpg" class="next-event__speaker-image">
-        <div class="next-event__speaker-meta--text-box">
-          <div class="next-event__speaker-meta--text-bottom">
-            <h3 class="text-upper u-margin-Bxs">Chris Downer</h3>
-            <p class="text-primary">Designer, Sketch<br>
-            @chrisdowner</p>
-          </div>
-        </div>
-      </div>
-      <p>Tom is CEO and co-founder of Mondo, a new kind of bank who broke records in March, raising £1m of crowdfunding in 96 seconds. Tom previously founded GoCardless, a fintech startup that’s gone on to raise $25m. He’ll be sharing the stage with Hugo to talk about building a design-led business.</p>
-    </div>
-  </div>
-</div>
+{% include partners.html %}
 
-<div class="container bg-base-light">
-  <p class="text-secondary">Latest from the blog</p>
-  <div class="grid u-cf u-margin-Tm">
-    <div class="grid__left">
-      <img src="img/blog-image.jpg" class="u-margin-Bs">
-      <h3 class="u-margin-Bs">Design Club 2 write-up</h3>
-      <p class="u-margin-Bs">Tom is CEO and co-founder of Mondo, a new kind of bank who broke records in March, raising £1m of crowdfunding in 96 seconds. Tom previously founded GoCardless, a fintech startup that’s gone on to raise $25m. He’ll be sharing the stage with Hugo to talk about building a design-led business.</p>
-      <a href="#">Read full article</a>
-    </div>
-
-    <div class="grid__right">
-      <img src="img/blog-image.jpg" class="u-margin-Bs">
-      <h3 class="u-margin-Bs">Design Club 1 write-up</h3>
-      <p class="u-margin-Bs">Tom is CEO and co-founder of Mondo, a new kind of bank who broke records in March, raising £1m of crowdfunding in 96 seconds. Tom previously founded GoCardless, a fintech startup that’s gone on to raise $25m. He’ll be sharing the stage with Hugo to talk about building a design-led business.</p>
-      <a href="#">Read full article</a>
-    </div>
-  </div>
-</div>
-
-<div class="container bg-secondary">
-  <div class="next-event__details">
-    <div class="next-event__details__about">
-      <p class="text-white">Our sponsors</p>
-      <div class="next-event__details__about--content">
-        <h2 class="text-white u-margin-Bxs">Our new best friends</h2>
-        <p class="text-medium text-white">To keep tickets free, and the drinks flowing, we’ve partnered with two of the most useful companies a designer could ever need. Check out Marvel for simple design, prototyping and collaboration; and SuperHi, who make learning to code easier.</p>
-      </div>
-    </div>
-
-    <div class="next-event__details__map bg-white">
-      {% include map.html %}
-    </div>
-  </div>
-</div>
-
-<ul class="post-list">
-  {% for post in site.posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-      </h2>
-    </li>
-  {% endfor %}
-</ul>

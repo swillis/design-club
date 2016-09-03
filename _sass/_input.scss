@@ -30,6 +30,15 @@ textarea {
   input[type=text],
   textarea {
     width: 220px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: $width-tiny) {
+  input[type=email],
+  input[type=text],
+  textarea {
+    width: 175px;
   }
 }
 

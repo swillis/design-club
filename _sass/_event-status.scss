@@ -1,6 +1,7 @@
 .event-status {
   display: inline-block;
   margin-top: 134px;
+  padding: 0 $space-medium;
 }
 
 .event-status__logo {
@@ -33,7 +34,24 @@
 }
 
 .event-status__buy {
+  font-size: $text-medium;
   background-color: $color-secondary;
   color: white;
   margin-left: $space-small;
+}
+
+@media screen and (max-width: $width-medium) {
+  .event-status {
+    margin: $space-x-large 0;
+  }
+
+  .event-status__date,
+  .event-status__venue,
+  .event-status__price {
+    display: none;
+  }
+
+  .event-status__buy {
+    margin: 0;
+  }
 }

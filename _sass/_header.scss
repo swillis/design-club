@@ -9,7 +9,7 @@
   box-shadow: 0 4px 12px 0 rgba(55,243,193,0.3);
  }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 680px) {
   .header {
     visibility: hidden; // cancel out the 'display: block; being added in app.js
   }

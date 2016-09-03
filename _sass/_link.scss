@@ -1,0 +1,42 @@
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: $color-primary;
+  text-decoration: underline;
+  transition: color 0.1s ease;
+}
+
+a:hover,
+a:active {
+  color: $color-secondary;
+}
+
+a.link-invert:link,
+a.link-invert:visited,
+a.link-invert:hover,
+a.link-invert:active {
+  color: white;
+  text-decoration: underline;
+}
+
+a.link-plain:link,
+a.link-plain:visited,
+a.link-plain:hover,
+a.link-plain:active {
+  text-decoration: none;
+  color: $color-primary;
+}
+
+a.link-plain:hover,
+a.link-plain:active {
+  color: $color-secondary;
+}
+
+a.link-invert--plain:link,
+a.link-invert--plain:visited,
+a.link-invert--plain:hover,
+a.link-invert--plain:active {
+  text-decoration: none;
+  color: white;
+}
