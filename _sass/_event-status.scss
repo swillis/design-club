@@ -1,0 +1,39 @@
+.event-status {
+  display: inline-block;
+  margin-top: 134px;
+}
+
+.event-status__logo {
+  width: auto;
+  height: 72px;
+  float: left;
+  margin-right: $space-small;
+}
+
+.event-status__date,
+.event-status__venue,
+.event-status__price,
+.event-status__buy {
+  float: left;
+  height: 72px;
+  line-height: 72px;
+  padding: 0 $space-medium;
+}
+
+.event-status__date,
+.event-status__venue,
+.event-status__price {
+  border-top: 2px solid $color-primary;
+  border-bottom: 2px solid $color-primary;
+}
+
+.event-status__date,
+.event-status__venue {
+  border-right: 2px solid $color-primary;
+}
+
+.event-status__buy {
+  background-color: $color-secondary;
+  color: white;
+  margin-left: $space-small;
+}
