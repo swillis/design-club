@@ -1,0 +1,15 @@
+footer {
+  border-top: 2px solid $color-primary;
+  padding: 0 $space-medium;
+}
+
+@media screen and (max-width: $width-mobile) {
+  footer {
+    margin: 0 $space-small;
+  }
+}
+
+.footer__text {
+  max-width: 620px;
+  margin: 0 auto;
+}

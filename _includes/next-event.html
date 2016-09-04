@@ -1,11 +1,13 @@
-<div class="container bg-base-light">
+<div id="event" class="container bg-base-light">
   <div class="next-event">
     <div class="next-event__about">
       <p class="text-secondary">The next event</p>
       <div class="next-event__about--content">
         <h2 class="u-margin-Bxs">Design Club 3!</h2>
         <p class="text-medium">We’ll be back on <span class="text-heavy">15th September 2016</span> at <span class="text-heavy">The Trampery</span> in Old Street, Shoreditch. <span class="text-heavy">Doors open at 6:30pm</span>. Make sure you arrive early for free drinks, free stickers, and more!</p>
-        <p class="next-event__buy text-medium u-margin-Vs"><a href="#">Get free tickets &rarr;</a></p>
+        <p class="next-event__buy text-medium u-margin-Vs">
+          <a href="{% include ticket-link.html %}" target="_blank">Get free tickets &rarr;</a>
+        </p>
       </div>
     </div>
     <div class="next-event__map bg-white">
@@ -16,30 +18,30 @@
   <div class="next-event__speakers u-cf">
     <div class="next-event__speaker-1">
       <div class="next-event__speaker-meta u-margin-Bm">
-        <img src="img/speaker-image.jpg" class="next-event__speaker-image">
+        <img src="img/speakers/chris-downer.jpg" class="next-event__speaker-image">
         <div class="next-event__speaker-meta--text-box">
           <div class="next-event__speaker-meta--text-bottom">
             <h3 class="text-upper u-margin-Bxs">Chris Downer</h3>
             <p class="text-primary">Designer, Sketch<br>
-            @chrisdowner</p>
+            <a href="https://twitter.com/cjdowner" target="_blank">@cjdowner</a></p>
           </div>
         </div>
       </div>
-      <p>Tom is CEO and co-founder of Mondo, a new kind of bank who broke records in March, raising £1m of crowdfunding in 96 seconds. Tom previously founded GoCardless, a fintech startup that’s gone on to raise $25m. He’ll be sharing the stage with Hugo to talk about building a design-led business.</p>
+      <p>Chris works as a product designer at industry darling Sketch. He lives in Canterbury and has been designing Mac and iOS applications for the past 7 years. Chris will be talking about his experiences working remotely in a high-pressure product team, as well as what it's like designing Sketch in, well, Sketch.</p>
     </div>
 
     <div class="next-event__speaker-2">
       <div class="next-event__speaker-meta u-margin-Bm">
-        <img src="img/speaker-image.jpg" class="next-event__speaker-image">
+        <img src="img/speakers/mystery-speaker.jpg" class="next-event__speaker-image">
         <div class="next-event__speaker-meta--text-box">
           <div class="next-event__speaker-meta--text-bottom">
-            <h3 class="text-upper u-margin-Bxs">Chris Downer</h3>
-            <p class="text-primary">Designer, Sketch<br>
-            @chrisdowner</p>
+            <h3 class="text-upper u-margin-Bxs">Mystery speaker!</h3>
+            <p class="text-primary">To be announced<br>
+            <a href="http://giphy.com/gifs/season-from-secrets-12NL2pF3sHynCg" target="_blank">@sshhh!</a></p>
           </div>
         </div>
       </div>
-      <p>Tom is CEO and co-founder of Mondo, a new kind of bank who broke records in March, raising £1m of crowdfunding in 96 seconds. Tom previously founded GoCardless, a fintech startup that’s gone on to raise $25m. He’ll be sharing the stage with Hugo to talk about building a design-led business.</p>
+      <p>Our second fantastic speaker will be talking about an exciting (and secretive) new launch. We'll be announcing them later this week so keep your eyes peeled!</p>
     </div>
   </div>
 </div>
