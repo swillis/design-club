@@ -30,7 +30,11 @@
 
 @media screen and (max-width: $width-mobile) {
   .hero--end {
-    background: url(../img/hero2-image.jpg) no-repeat -440px center;
+    background: url(../img/hero2-image.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 
