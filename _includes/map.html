@@ -7,40 +7,39 @@
   </style>
 </div>
 
-<script type='text/javascript'>
+{% for post in site.posts limit:1 %}
+  <script type='text/javascript'>
 
-  // change these bits!!
+    // Coming from YAML front-matter of event
+    var venueLat = {{ post.venueLat }};
+    var venueLong = {{ post.venueLong }};
+    var venueName = '{{ post.venueName }}';
+    var venueAddress = '{{ post.venueAddress }}';
 
-  var venueLat = 51.5265793;
-  var venueLong = -0.0843814;
-  var venueName = 'The Trampery';
-  var venueAddress = '239 Old St, London EC1V 9EY';
+    function init_map() {
+      var myOptions = {
+        zoom: 15,
+        center: new google.maps.LatLng(venueLat, venueLong),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
 
-  // change the above bits!!
+      map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+      marker = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(venueLat, venueLong)
+      });
 
-  function init_map() {
-    var myOptions = {
-      zoom: 15,
-      center: new google.maps.LatLng(venueLat, venueLong),
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
+      infowindow = new google.maps.InfoWindow({
+        content: '<strong>' + venueName + '<\/strong><br>' + venueAddress
+      });
 
-    map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-    marker = new google.maps.Marker({
-      map: map,
-      position: new google.maps.LatLng(venueLat, venueLong)
-    });
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map, marker);
+      });
 
-    infowindow = new google.maps.InfoWindow({
-      content: '<strong>' + venueName + '<\/strong><br>' + venueAddress
-    });
-
-    google.maps.event.addListener(marker, 'click', function() {
       infowindow.open(map, marker);
-    });
+    }
 
-    infowindow.open(map, marker);
-  }
-
-  google.maps.event.addDomListener(window, 'load', init_map);
-</script>
+    google.maps.event.addDomListener(window, 'load', init_map);
+  </script>
+{% endfor %}
