@@ -1,47 +1,56 @@
-<div id="event" class="container bg-base-light">
-  <div class="next-event">
-    <div class="next-event__about">
-      <p class="text-secondary">The next event</p>
-      <div class="next-event__about--content">
-        <h2 class="u-margin-Bxs">Design Club 3!</h2>
-        <p class="text-medium">We’ll be back on <span class="text-heavy">15th September 2016</span> at <span class="text-heavy">The Trampery</span> in Old Street, Shoreditch. <span class="text-heavy">Doors open at 6:30pm</span>. Make sure you arrive early for free drinks, free stickers, and more!</p>
-        <p class="next-event__buy text-medium u-margin-Vs">
-          <a href="{% include ticket-link.html %}" target="_blank">Sold out &rarr;</a>
-        </p>
-      </div>
-    </div>
-    <div class="next-event__map bg-white">
-      {% include map.html %}
-    </div>
-  </div>
-
-  <div class="next-event__speakers u-cf">
-    <div class="next-event__speaker-1">
-      <div class="next-event__speaker-meta u-margin-Bm">
-        <img src="img/speakers/al-monk.jpg" class="next-event__speaker-image">
-        <div class="next-event__speaker-meta--text-box">
-          <div class="next-event__speaker-meta--text-bottom">
-            <h3 class="text-upper u-margin-Bxs">Al Monk</h3>
-            <p class="text-primary">Sr. Product Designer, Heroku<br>
-            <a href="https://twitter.com/almonk" target="_blank">@almonk</a></p>
-          </div>
+{% for post in site.posts limit:1 %}
+  <div id="event" class="container bg-base-light">
+    <div class="next-event">
+      <div class="next-event__about">
+        <p class="text-secondary">The next event</p>
+        <div class="next-event__about--content">
+          <h2 class="u-margin-Bxs">{{ post.title }}!</h2>
+          <p class="text-medium">
+            We’ll be back on <span class="text-heavy">{{ post.date | date: "%d %B" }}</span> at 
+            <span class="text-heavy">{{ post.venueName }}</span> in {{ post.venueLocation }}. 
+            <span class="text-heavy">Doors open at {{ post.doors }}</span>. 
+            Make sure you arrive early for free drinks, free stickers, and more!
+          </p>
+          <p class="next-event__buy text-medium u-margin-Vs">
+            <a href="{% include ticket-link.html %}" target="_blank">Sold out &rarr;</a>
+          </p>
         </div>
       </div>
-      <p>Al works as senior product designer at Heroku, helping build the platform that's powering much of the internet. A designer, developer, and writer, Al is truly a jack-of-all-trades and master of at least a few. He'll be sharing his experience of working for a US based company from the UK, and introducing a 'blueprint for remote working'. </p>
+      <div class="next-event__map bg-white">
+        {% include map.html %}
+      </div>
     </div>
 
-    <div class="next-event__speaker-2">
-      <div class="next-event__speaker-meta u-margin-Bm">
-        <img src="img/speakers/deliveroo.jpg" class="next-event__speaker-image">
-        <div class="next-event__speaker-meta--text-box">
-          <div class="next-event__speaker-meta--text-bottom">
-            <h3 class="text-upper u-margin-Bxs">Courtney McNeil,<br>Simon Rohrbach</h3>
-            <p class="text-primary">Design Leads, Deliveroo<br>
-            <a href="https://twitter.com/deliveroodesign" target="_blank">@deliveroodesign</a></p>
+    <div class="next-event__speakers u-cf">
+      <div class="next-event__speaker-1">
+        <div class="next-event__speaker-meta u-margin-Bm">
+          <img src="img/speakers/{{ post.speakerOneImg }}" class="next-event__speaker-image">
+          <div class="next-event__speaker-meta--text-box">
+            <div class="next-event__speaker-meta--text-bottom">
+              <h3 class="text-upper u-margin-Bxs">{{ post.speakerOne }}</h3>
+              <p class="text-primary">{{ post.speakerOneJob }}<br>
+              <a href="https://twitter.com/{{ post.speakerOneTwitter }}" target="_blank">
+              {{ post.speakerOneTwitter }}</a></p>
+            </div>
           </div>
         </div>
+        <p>{{ post.speakerOneBio }}</p>
       </div>
-      <p>Courtney &amp; Simon lead brand &amp; product respectively at Deliveroo&thinsp;&mdash;&thinsp;the fast-growing food delivery company. For the first time, they'll be speaking about the process behind Deliveroo’s recently unveiled new visual identity, their collaboration with DesignStudio, and where the new look will take Deliveroo from here.</p>
+
+      <div class="next-event__speaker-2">
+        <div class="next-event__speaker-meta u-margin-Bm">
+          <img src="img/speakers/{{ post.speakerTwoImg }}" class="next-event__speaker-image">
+          <div class="next-event__speaker-meta--text-box">
+            <div class="next-event__speaker-meta--text-bottom">
+              <h3 class="text-upper u-margin-Bxs">{{ post.speakerTwo }}</h3>
+              <p class="text-primary">{{ post.speakerTwoJob }}<br>
+              <a href="https://twitter.com/{{ post.speakerTwoTwitter }}" target="_blank">
+              {{ post.speakerTwoTwitter }}</a></p>
+            </div>
+          </div>
+        </div>
+        <p>{{ post.speakerTwoBio }}</p>
+      </div>
     </div>
   </div>
-</div>
+{% endfor %}
