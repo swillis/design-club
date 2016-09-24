@@ -2,7 +2,7 @@ $(document).on('ready', function() {
 
   // Fade in nav
 
-  $('.welcome-text').waypoint(function() {
+  $('#trigger-header').waypoint(function() {
     var header = $('.header');
     header.toggle();
     header.toggleClass('bounceInDown');

@@ -1,0 +1,27 @@
+<div id="event" class="container bg-base-light">
+  <div class="next-event">
+    <div class="next-event__about">
+      <p class="text-secondary u-margin-Bm">{{post.title}}</p>
+      <div class="next-event__about--content">
+        <h2 class="u-margin-Bxs">{{ post.pastTitle }}</h2>
+        <p class="text-medium u-margin-Bs">
+          {{ post.title }} was on 
+          <span class="text-heavy">{{ post.date | date: "%d %B" }}</span> at 
+          <span class="text-heavy">{{ post.venueName }}</span> in 
+          {{ post.venueLocation }}. Check out the details below:
+        </p> 
+        <a href="{{ post.pastWriteup }}" class="text-medium u-block" target="_blank">
+        Read the full write-up &rarr;</a>
+        <a href="{{ post.pastPhotos }}" class="text-medium" target="_blank">
+        View the photos &rarr;</a>
+      </div>
+    </div>
+    <div class="past-event grid__right" style="
+      background: url(../img/blog/{{ post.pastPic }}) no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;">
+    </div>
+  </div>
+</div>

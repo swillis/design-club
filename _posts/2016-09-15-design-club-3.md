@@ -2,8 +2,10 @@
 layout: default
 
 title: Design Club 3
+pastTitle: 
 date: 15th September 2016
 doors: 6:30pm
+ticketLink: https://www.eventbrite.co.uk/e/design-club-3-tickets-27383834787#tickets
 
 venueName: The Trampery
 venueLocation: Old Street, Shoreditch

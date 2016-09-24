@@ -25,4 +25,9 @@ speakerTwoBio: >
   Previously Creative Director at Brand Union and co-founder of Bespoky, Alexis runs Brand and Creative at 
   technical apparel startup, ADAY. Having recently moved to New York, she’ll be sharing her experiences of 
   scaling a contemporary retail business in a tough market and what it means to create a new genre of clothing.
+
+pastTitle: Fashion and Finance
+pastWriteup: https://blog.marvelapp.com/design-club-2-just-enough-is-more/
+pastPic: dc1-write-up.jpg
+pastPhotos: http://joewatts.co/design-club-30-06-16
 ---

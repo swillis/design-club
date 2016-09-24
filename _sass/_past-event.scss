@@ -1,0 +1,10 @@
+.past-event { 
+  height: 260px;
+  width: calc(50% - 20px);
+}
+
+@media screen and (max-width: $width-medium) {
+  .past-event {
+    width: 100%;
+  }
+}

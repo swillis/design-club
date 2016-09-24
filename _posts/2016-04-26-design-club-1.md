@@ -25,4 +25,9 @@ speakerTwoBio: >
   moving through the ranks with iconic work for the likes of Norton & Sons, Swisscom, HP, and the BBC. 
   He'll be sharing his experience, and talking about the realities of bringing big, 
   complex things into the world.
+
+pastTitle: The business of business
+pastWriteup: https://blog.marvelapp.com/design-club-1-what-it-takes/
+pastPic: dc2-write-up.jpg
+pastPhotos: http://joewatts.co/design-club-26-04-16
 ---

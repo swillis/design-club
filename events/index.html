@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="bg-secondary-light text-center">
+  <div class="u-padding-Vm">
+    {% include menu.html %}
+  </div>
+  <div class="welcome-text">
+    <h1 class="welcome-text__header text-center u-margin-Bm">Design Club Events</h1>
+    <p class="welcome-text__body--secondary text-large text-center">Find out about upcoming events, get tickets, or read about past events.</p>
+  </div>
+</div>
+
+<div id="trigger-header" class="site-wrapper u-margin-Tl">
+  {% include next-event.html %}
+    
+  {% for post in site.posts offset:1 %}
+    {% include past-event.html %}
+  {% endfor %}
+
+  {% include mailing-list.html %}
+</div>
