@@ -1,56 +1,75 @@
-{% for post in site.posts limit:1 %}
-  <div id="event" class="container bg-base-light">
-    <div class="next-event">
-      <div class="next-event__about">
-        <p class="text-secondary">The next event</p>
-        <div class="next-event__about--content">
-          <h2 class="u-margin-Bxs">{{ post.title }}!</h2>
-          <p class="text-medium">
-            We’ll be back on <span class="text-heavy">{{ post.date | date: "%d %B" }}</span> at 
-            <span class="text-heavy">{{ post.venueName }}</span> in {{ post.venueLocation }}. 
-            <span class="text-heavy">Doors open at {{ post.doors }}</span>. 
-            Make sure you arrive early for free drinks, free stickers, and more!
-          </p>
-          <p class="next-event__buy text-medium u-margin-Vs">
-            <a href="{% include ticket-link.html %}" target="_blank">Sold out &rarr;</a>
-          </p>
+{% for post in site.posts limit: 1 %}
+  {% if post.status == 'upcoming' %}
+
+    <div id="event" class="container bg-base-light">
+      <div class="next-event">
+        <div class="next-event__about">
+          <p class="text-secondary">The next event</p>
+          <div class="next-event__about--content">
+            <h2 class="u-margin-Bxs">{{ post.title }}!</h2>
+            <p class="text-medium">
+              We’ll be back on <span class="text-heavy">{{ post.date | date: "%d %B" }}</span> at 
+              <span class="text-heavy">{{ post.venueName }}</span> in {{ post.venueLocation }}. 
+              <span class="text-heavy">Doors open at {{ post.doors }}</span>. 
+              Make sure you arrive early for free drinks, free stickers, and more!
+            </p>
+            <p class="next-event__buy text-medium u-margin-Vs">
+              <a href="{% include ticket-link.html %}" target="_blank">Sold out &rarr;</a>
+            </p>
+          </div>
+        </div>
+        <div class="next-event__map bg-white">
+          {% include map.html %}
         </div>
       </div>
-      <div class="next-event__map bg-white">
-        {% include map.html %}
+
+      <div class="next-event__speakers u-cf">
+        <div class="next-event__speaker-1">
+          <div class="next-event__speaker-meta u-margin-Bm">
+            <img src="/img/speakers/{{ post.speakerOneImg }}" class="next-event__speaker-image">
+            <div class="next-event__speaker-meta--text-box">
+              <div class="next-event__speaker-meta--text-bottom">
+                <h3 class="text-upper u-margin-Bxs">{{ post.speakerOne }}</h3>
+                <p class="text-primary">{{ post.speakerOneJob }}<br>
+                <a href="https://twitter.com/{{ post.speakerOneTwitter }}" target="_blank">
+                {{ post.speakerOneTwitter }}</a></p>
+              </div>
+            </div>
+          </div>
+          <p>{{ post.speakerOneBio }}</p>
+        </div>
+
+        <div class="next-event__speaker-2">
+          <div class="next-event__speaker-meta u-margin-Bm">
+            <img src="/img/speakers/{{ post.speakerTwoImg }}" class="next-event__speaker-image">
+            <div class="next-event__speaker-meta--text-box">
+              <div class="next-event__speaker-meta--text-bottom">
+                <h3 class="text-upper u-margin-Bxs">{{ post.speakerTwo }}</h3>
+                <p class="text-primary">{{ post.speakerTwoJob }}<br>
+                <a href="https://twitter.com/{{ post.speakerTwoTwitter }}" target="_blank">
+                {{ post.speakerTwoTwitter }}</a></p>
+              </div>
+            </div>
+          </div>
+          <p>{{ post.speakerTwoBio }}</p>
+        </div>
       </div>
     </div>
 
-    <div class="next-event__speakers u-cf">
-      <div class="next-event__speaker-1">
-        <div class="next-event__speaker-meta u-margin-Bm">
-          <img src="/img/speakers/{{ post.speakerOneImg }}" class="next-event__speaker-image">
-          <div class="next-event__speaker-meta--text-box">
-            <div class="next-event__speaker-meta--text-bottom">
-              <h3 class="text-upper u-margin-Bxs">{{ post.speakerOne }}</h3>
-              <p class="text-primary">{{ post.speakerOneJob }}<br>
-              <a href="https://twitter.com/{{ post.speakerOneTwitter }}" target="_blank">
-              {{ post.speakerOneTwitter }}</a></p>
-            </div>
-          </div>
-        </div>
-        <p>{{ post.speakerOneBio }}</p>
-      </div>
+  {% else %}
 
-      <div class="next-event__speaker-2">
-        <div class="next-event__speaker-meta u-margin-Bm">
-          <img src="/img/speakers/{{ post.speakerTwoImg }}" class="next-event__speaker-image">
-          <div class="next-event__speaker-meta--text-box">
-            <div class="next-event__speaker-meta--text-bottom">
-              <h3 class="text-upper u-margin-Bxs">{{ post.speakerTwo }}</h3>
-              <p class="text-primary">{{ post.speakerTwoJob }}<br>
-              <a href="https://twitter.com/{{ post.speakerTwoTwitter }}" target="_blank">
-              {{ post.speakerTwoTwitter }}</a></p>
-            </div>
+    <div id="event" class="container bg-base-light">
+      <div class="next-event">
+        <div class="next-event__about">
+          <p class="text-secondary u-margin-Bm">The next event</p>
+          <div class="next-event__about--content">
+            <h2 class="u-margin-Bxs">Next event TBC</h2>
+            <p class="text-medium">We’ll be announcing our next event super soon. In the meantime, why not read up on our <a href="/events">past events</a>, or join the mailing list to be first in line.</p> 
           </div>
         </div>
-        <p>{{ post.speakerTwoBio }}</p>
+        <div class="no-event grid__right"></div>
       </div>
     </div>
-  </div>
+
+  {% endif %}
 {% endfor %}

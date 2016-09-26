@@ -1,10 +1,20 @@
-.past-event { 
+.past-event, 
+.no-event { 
   height: 260px;
   width: calc(50% - 20px);
 }
 
+.no-event {
+  background: url(../img/no-event.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @media screen and (max-width: $width-medium) {
-  .past-event {
+  .past-event,
+  .no-event {
     width: 100%;
   }
 }

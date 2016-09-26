@@ -1,8 +1,8 @@
 ---
 layout: default
 
+
 title: Design Club 3
-pastTitle: 
 date: 15th September 2016
 doors: 6:30pm
 ticketLink: https://www.eventbrite.co.uk/e/design-club-3-tickets-27383834787#tickets
@@ -32,4 +32,10 @@ speakerTwoBio: >
   fast-growing food delivery company. For the first time, they'll be speaking about the process behind 
   Deliveroo’s recently unveiled new visual identity, their collaboration with DesignStudio, 
   and where the new look will take Deliveroo from here.
+
+status: past
+pastTitle: Working in the open
+pastWriteup: https://blog.marvelapp.com/design-club-3-work-open/
+pastPic: dc3-write-up.jpg
+pastPhotos: http://joewatts.co/design-club-15-09-16.html
 ---

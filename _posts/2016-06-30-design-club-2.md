@@ -1,6 +1,8 @@
 ---
 layout: default
 
+status: past
+
 title: Design Club 2
 date: 30th June 2016
 venueName: Protein Studios
@@ -28,6 +30,6 @@ speakerTwoBio: >
 
 pastTitle: Fashion and Finance
 pastWriteup: https://blog.marvelapp.com/design-club-2-just-enough-is-more/
-pastPic: dc1-write-up.jpg
+pastPic: dc2-write-up.jpg
 pastPhotos: http://joewatts.co/design-club-30-06-16
 ---

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="bg-secondary-light text-center">
+<div class="bg-white text-center">
   <div class="u-padding-Vm">
     {% include menu.html %}
   </div>
@@ -12,11 +12,19 @@ layout: default
   </div>
 </div>
 
-<div id="trigger-header" class="site-wrapper u-margin-Tl">
+<div id="trigger-header" class="site-wrapper">
   {% include next-event.html %}
     
-  {% for post in site.posts offset:1 %}
-    {% include past-event.html %}
+  {% for post in site.posts limit:1 %}
+    {% if post.status == 'upcoming' %}
+      {% for post in site.posts offset:1 %}
+        {% include past-event.html %}
+      {% endfor %}
+    {% else %}
+      {% for post in site.posts %}
+        {% include past-event.html %}
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 
   {% include mailing-list.html %}

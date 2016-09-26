@@ -1,6 +1,8 @@
 ---
 layout: default
 
+status: past
+
 title: Design Club 1
 date: 26th April 2016
 venueName: WeWork
@@ -28,6 +30,6 @@ speakerTwoBio: >
 
 pastTitle: The business of business
 pastWriteup: https://blog.marvelapp.com/design-club-1-what-it-takes/
-pastPic: dc2-write-up.jpg
+pastPic: dc1-write-up.jpg
 pastPhotos: http://joewatts.co/design-club-26-04-16
 ---
