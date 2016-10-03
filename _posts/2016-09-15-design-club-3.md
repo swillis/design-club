@@ -1,6 +1,6 @@
 ---
 layout: default
-
+category: event
 
 title: Design Club 3
 date: 15th September 2016

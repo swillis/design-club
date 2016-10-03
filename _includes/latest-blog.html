@@ -1,24 +1,15 @@
 <div id="blog" class="container bg-base-light">
   <p class="text-secondary">Latest from the blog</p>
   <div class="grid u-cf u-margin-Tm">
-    <div class="grid__left">
-      <img src="img/blog/dc2-write-up.jpg" class="u-margin-Bs">
-      <h3 class="u-margin-Bs">
-        <a href="https://blog.marvelapp.com/design-club-2-just-enough-is-more/" 
-        target="_blank" class="link-plain">Design Club 2 write-up</a>
-      </h3>
-      <p class="u-margin-Bs">Following on from April’s inaugural event, this second installment sold out within minutes and packed an equally big punch, featuring Alexis Cuddyre, head of creative and brand at ADAY, as well as Tom Blomfield and Hugo Cornejo from Mondo. Hosted at Protein Studios, and with drinks laid on by DeskBeers from Deliveroo, the evening represented the beating heart of London’s design community&hellip;</p>
-      <a href="https://blog.marvelapp.com/design-club-2-just-enough-is-more/" target="_blank">Read full article &rarr;</a>
-    </div>
-
-    <div class="grid__right">
-      <img src="img/blog/dc1-write-up.jpg" class="u-margin-Bs">
-      <h3 class="u-margin-Bs">
-        <a href="https://blog.marvelapp.com/design-club-1-what-it-takes/" 
-        target="_blank" class="link-plain">Design Club 1 write-up</a>
-      </h3>
-      <p class="u-margin-Bs">Design Club is for digital product designers working in startups, big tech companies, and agencies. We launched it as a way to bring the new creative community together to have a good time and figure out what’s next. Mat Heinl (Moving Brands) and Jeff Veen (True Ventures) were the inaugural speakers, and both shared candidly about what it takes to evolve from a designer to a design leader&hellip;</p>
-      <a href="https://blog.marvelapp.com/design-club-1-what-it-takes/" target="_blank">Read full article &rarr;</a>
-    </div>
+    {% for post in site.categories.blog limit:2 %}
+      <div class="grid__left grid__left--latest-blog">
+        <img src="img/blog/{{ post.pic }}" class="u-margin-Bs">
+        <h3 class="u-margin-Bs">
+          <a href="{{ post.link }}" target="_blank" class="link-plain">{{ post.title }}</a>
+        </h3>
+        <p class="u-margin-Bs">{{ post.preview }}&hellip;</p>
+        <a href="{{ post.link }}" target="_blank">Read full article &rarr;</a>
+      </div>
+    {% endfor %}
   </div>
 </div>

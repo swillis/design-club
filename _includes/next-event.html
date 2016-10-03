@@ -1,4 +1,4 @@
-{% for post in site.posts limit: 1 %}
+{% for post in site.categories.event limit:1 %}
   {% if post.status == 'upcoming' %}
 
     <div id="event" class="container bg-base-light">

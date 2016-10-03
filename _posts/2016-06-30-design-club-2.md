@@ -1,7 +1,6 @@
 ---
 layout: default
-
-status: past
+category: event
 
 title: Design Club 2
 date: 30th June 2016
@@ -28,6 +27,7 @@ speakerTwoBio: >
   technical apparel startup, ADAY. Having recently moved to New York, she’ll be sharing her experiences of 
   scaling a contemporary retail business in a tough market and what it means to create a new genre of clothing.
 
+status: past
 pastTitle: Fashion and Finance
 pastWriteup: https://blog.marvelapp.com/design-club-2-just-enough-is-more/
 pastPic: dc2-write-up.jpg

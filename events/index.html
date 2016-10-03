@@ -15,13 +15,13 @@ layout: default
 <div id="trigger-header" class="site-wrapper">
   {% include next-event.html %}
     
-  {% for post in site.posts limit:1 %}
+  {% for post in site.categories.event limit:1 %}
     {% if post.status == 'upcoming' %}
-      {% for post in site.posts offset:1 %}
+      {% for post in site.categories.event offset:1 %}
         {% include past-event.html %}
       {% endfor %}
     {% else %}
-      {% for post in site.posts %}
+      {% for post in site.categories.event %}
         {% include past-event.html %}
       {% endfor %}
     {% endif %}

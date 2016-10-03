@@ -1,7 +1,6 @@
 ---
 layout: default
-
-status: past
+category: event
 
 title: Design Club 1
 date: 26th April 2016
@@ -28,6 +27,7 @@ speakerTwoBio: >
   He'll be sharing his experience, and talking about the realities of bringing big, 
   complex things into the world.
 
+status: past
 pastTitle: The business of business
 pastWriteup: https://blog.marvelapp.com/design-club-1-what-it-takes/
 pastPic: dc1-write-up.jpg
