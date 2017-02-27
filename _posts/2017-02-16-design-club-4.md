@@ -27,10 +27,10 @@ speakerTwoBio: Tom is co-founder and designer at Bricklane.com, a startup that's
   a radically simple way for first home savers to access the property market. Tom
   will be talking about the challenges of being a designer with a seat at the table
   of a fast-growing company, in a traditionally slow-moving industry.
-status: upcoming
-pastTitle: 
-pastWriteup: 
-pastPic: 
-pastPhotos: 
+status: past
+pastTitle: Do what you're driven to fix
+pastWriteup: https://blog.marvelapp.com/design-club-do-what-youre-driven-to-fix/
+pastPic: dc4-write-up.jpg
+pastPhotos: http://joewatts.co/design-club-16-02-17.html
 ---
 
