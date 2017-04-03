@@ -5,7 +5,7 @@ categories:
 - event
 layout: default
 doors: 6:30pm
-ticketLink: 
+ticketLink: https://www.eventbrite.co.uk/e/design-club-5-tickets-33307942954#tickets
 venueName: Hackney House
 venueLocation: Curtain Road, Shoreditch
 venueAddress: 25-27 Curtain Road, London EC2A
