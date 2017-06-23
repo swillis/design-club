@@ -1,0 +1,54 @@
+.job-listing {
+  margin-bottom: $space-large;
+  padding: $space-large 0 0 0;
+  border-top: 1px solid $color-meta-light;
+  overflow: auto;
+}
+
+@media screen and (max-width: $width-medium) {
+  .job-listing {
+    margin-bottom: $space-medium;
+  }
+}
+
+@media screen and (max-width: $width-mobile) {
+  .job-listing {
+    padding: $space-medium 0 0 0;
+    margin-left: $space-small;
+    margin-right: $space-small;
+    margin-bottom: $space-small;
+  }
+}
+
+.job-listing__img {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 320px;
+  background-color: $color-base;
+}
+
+.job-listing__info {
+  position: relative;
+  float: right;
+  width: calc(50% - 20px);
+  height: 320px;
+}
+
+@media screen and (max-width: $width-medium) {
+  .job-listing__img,
+  .job-listing__info {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .job-listing__img {
+    margin-bottom: $space-medium;
+  }
+
+  .job-listing__info {
+    height: auto;
+  }
+}

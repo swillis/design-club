@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="bg-white text-center">
+  <div class="u-padding-Vm">
+    {% include menu.html %}
+  </div>
+  <div class="welcome-text">
+    <h1 class="welcome-text__header text-center u-margin-Bm">What's next for you?</h1>
+    <p class="welcome-text__body--secondary text-large text-center">A small lead-in description about this lovely opportunity. Lorem ipsum dolar sit amet dolar bacon ipsum etc.</p>
+    <a href="" target="_blank" class="btn link-invert--plain text-x-small u-margin-Tm">
+      POST A ROLE<br>
+      <span style="opacity:0.7;">From £50 for 30 days</span>
+    </a>
+    <div class="text-x-small u-margin-Ts"><a href="">Why post here?</a></div>
+  </div>
+</div>
+
+<div id="trigger-header" class="site-wrapper">
+
+  {% for job in site.jobs %}
+    {% include job-listing.html %}
+  {% endfor %}
+
+  {% include mailing-list.html %}
+</div>

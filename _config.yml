@@ -5,8 +5,9 @@ collections:
   posts:
     title: Posts
     output: true
-  uploads:
-    title: Uploads
+  jobs:
+    title: jobs
+    permalink: /:title
     output: true
 email: clubhouse@designclub.io
 description: Where the creative community figure out what's next. Every other month
@@ -18,3 +19,6 @@ url: http://designclub.io
 twitter_username: _DesignClub
 github_username: anothertompetty
 markdown: kramdown
+---
+
+

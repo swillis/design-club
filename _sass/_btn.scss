@@ -1,0 +1,13 @@
+.btn {
+  padding: $space-small $space-medium;
+  background-color: $color-secondary;
+  display: inline-block;
+  color: white;
+}
+
+.btn--secondary {
+  @extend .btn;
+
+  background-color: transparent;
+  border: 1px solid $color-primary; 
+}
