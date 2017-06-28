@@ -9,7 +9,7 @@ lede: A small lead-in description about this lovely opportunity. Lorem ipsum dol
 type: Permanent
 location: London
 salary: £40-50k
-image: facebook
+image: carwow
 ---
 
 <span class="text-heavy">Deliveroo are looking for a senior designer to join their already growing company and blah blah blah. Role type, department, responsibilities, and location of offices would go here. This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here purple monkey bacon.</span>

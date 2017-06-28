@@ -7,7 +7,7 @@ collections:
     output: true
   jobs:
     title: jobs
-    permalink: /:title
+    permalink: /job/:title
     output: true
 email: clubhouse@designclub.io
 description: Where the creative community figure out what's next. Every other month

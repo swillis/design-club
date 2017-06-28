@@ -4,16 +4,19 @@ layout: default
 
 <div class="site-wrapper site-wrapper--job u-margin-Vxl">
   <div class="text-center">
-    <img src="/img/jobs/{{ page.company }}/{{ page.company }}.jpg">
-    <h2>{{ page.role }}, {{ page.company }}</h2>
-    <p class="text-x-small text-meta text-upper">
+    <div class="u-margin-Bm">
+      <a href="/careers" class="link-plain">&larr; Back to jobs</a>
+    </div>
+    <img src="/img/jobs/{{ page.company }}/{{ page.company }}-logo.jpg" class="job-listing__logo">
+    <h2 class="u-margin-Txs">{{ page.role }}, {{ page.company }}</h2>
+    <p class="text-x-small text-meta text-upper u-margin-Txs">
       {{ page.type }}&nbsp;&nbsp;|&nbsp;&nbsp;
       {{ page.location }}&nbsp;&nbsp;|&nbsp;&nbsp;
       {{ page.salary }}
     </p>
-    <img src="/img/jobs/{{ page.company }}/{{ page.image }}.jpg">
+    <img src="/img/jobs/{{ page.company }}/{{ page.image }}.jpg" class="u-margin-Tl">
   </div>
-  <div class="text-medium">
+  <div class="text-medium u-margin-Tl">
     {{ content }}
   </div>
 </div>
