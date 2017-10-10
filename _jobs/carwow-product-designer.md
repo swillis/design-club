@@ -1,6 +1,5 @@
 ---
 layout: job
-<!-- date: 06.26.2017 -->
 company: Carwow
 role: Product Designer
 title: Replace dodgy dealerships
@@ -12,20 +11,8 @@ salary: £40-50k
 image: carwow
 ---
 
-<span class="text-heavy">Carwow are looking for a Product Designer to join their already growing company and blah blah blah. Role type, department, responsibilities, and location of offices would go here. This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here purple monkey bacon.</span>
-
-<div class="job-listing__box text-body u-margin-Tl" markdown="1">
-  This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew.  — *Team DC*
-</div>
-<div class="job-listing__box--cta text-body u-margin-Bl">
-  <a href="{{ page.jobDescription }}" target="_blank" class="job-listing__box--description btn btn--primary link-invert--plain text-x-small text-upper text-center">
-    View job description &rarr;
-  </a>
-  <a href="mailto:{{ page.jobEmail }}" target="_blank" class="job-listing__box--apply btn--secondary link-plain text-x-small text-upper text-center">
-    Apply via email
-  </a>
-</div>
-
+<span class="text-heavy">This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew.  — *Team DC*</span>
+<br><br>
 ### DC: What’s your ambition for the business?
 Run this at the start of a project, or at specific intervals (e.g. every quarter).
 
