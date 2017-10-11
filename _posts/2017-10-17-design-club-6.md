@@ -15,24 +15,24 @@ speakerOne: Emma Sexton
 speakerOneImg: emma-sexton.jpg
 speakerOneJob: Feminist entrepreneur. Design thinker.
 speakerOneTwitter: "@emmasexton"
-speakerOneBio: Emma is Founder and Creative Director of Make Your Words Work™,
-  and Co-Founder of Flock Global. A serial entrepreneur and connector, Emma is 
-  a presenter on talkRADIO for The Badass Women's Hour, and winner of both the 
-  Kantar Inspiration Award and the Future 100 Award. She was shortlisted 
-  for The Drum's Creative Woman of the Year 2016. 
+speakerOneBio: Emma is Founder and Creative Director of Make Your Words Work™, and
+  Co-Founder of Flock Global. A serial entrepreneur and connector, Emma is a presenter
+  on talkRADIO for The Badass Women's Hour, and winner of both the Kantar Inspiration
+  Award and the Future 100 Award. She was shortlisted for The Drum's Creative Woman
+  of the Year 2016.
 speakerTwo: Andrew Godfrey
 speakerTwoImg: andrew-godfrey.jpg
 speakerTwoJob: Lead UX Designer, LEGO
 speakerTwoTwitter: "@tweet_godfrey"
-speakerTwoBio: Andrew is a UX Design Manager at LEGO working with the Global 
-  eCommerce customer experience teams. Previously, he was Lead Instructor at 
-  General Assembly and UX Design Specialist at Transport for London. 
-  He’ll be discussing some of the challenges of adopting design thinking at 
-  scale within large organisations, and how to take action to drive 
-  positive change. 
+speakerTwoBio: Andrew is a UX Design Manager at LEGO working with the Global eCommerce
+  customer experience teams. Previously, he was Lead Instructor at General Assembly
+  and UX Design Specialist at Transport for London. He’ll be discussing some of the
+  challenges of adopting design thinking at scale within large organisations, and
+  how to take action to drive positive change.
 status: upcoming
 pastTitle: 
 pastWriteup: 
 pastPic: 
 pastPhotos: 
 ---
+

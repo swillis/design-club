@@ -15,24 +15,24 @@ speakerOne: Chris Grantham
 speakerOneImg: chris-grantham.jpg
 speakerOneJob: Portfolio Director, IDEO
 speakerOneTwitter: "@ideo"
-speakerOneBio: Chris is Circular Economy Portfolio Director at IDEO, where he works 
-  with organisations on system change and breakthrough innovation. He’ll be talking 
-  about developing The Circular Design Guide, recently launched at The World Economic Forum, 
-  which aims to develop a generation of creatively confident, systems orientated 
-  circular designers. 
+speakerOneBio: Chris is Circular Economy Portfolio Director at IDEO, where he works
+  with organisations on system change and breakthrough innovation. He’ll be talking
+  about developing The Circular Design Guide, recently launched at The World Economic
+  Forum, which aims to develop a generation of creatively confident, systems orientated
+  circular designers.
 speakerTwo: Sara Allen
 speakerTwoImg: sara-allen.jpg
 speakerTwoJob: Founder, Further&More
 speakerTwoTwitter: "@furtherandmore"
-speakerTwoBio: Sara is the founder and CEO of Further&More, a company built to make 
-  job-sharing work for everyone. Before this Sara 
-  worked in the Cabinet Office where she lead the creation of the first VC fund 
-  co-invested by government, NGOs and Pharm. She’ll be exploring the changing workplace, 
-  and how job sharing is one of the few working patterns to truly support agility and 
-  diversity in business.
+speakerTwoBio: Sara is the founder and CEO of Further&More, a company built to make
+  job-sharing work for everyone. Before this Sara worked in the Cabinet Office where
+  she lead the creation of the first VC fund co-invested by government, NGOs and Pharm.
+  She’ll be exploring the changing workplace, and how job sharing is one of the few
+  working patterns to truly support agility and diversity in business.
 status: past
 pastTitle: 
 pastWriteup: 
 pastPic: 
 pastPhotos: 
 ---
+
