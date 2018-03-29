@@ -15,23 +15,23 @@ speakerOne: James Greenfield
 speakerOneImg: james-greenfield.jpg
 speakerOneJob: Founder & Creative Director, Koto
 speakerOneTwitter: "@gradiate"
-speakerOneBio: James is Creative Director and Co-founder of branding agency Koto. 
-  Before founding his own business, he worked on some of the world’s coolest brands 
-  at some of London’s leading studios. In 2013, as Executive Creative Director at 
-  DesignStudio, James led the much loved (and talked about!) rebrand of tech 
-  giant Airbnb. 
+speakerOneBio: James is Creative Director and Co-founder of branding agency Koto.
+  Before founding his own business, he worked on some of the world’s coolest brands
+  at some of London’s leading studios. In 2013, as Executive Creative Director at
+  DesignStudio, James led the much loved (and talked about!) rebrand of tech giant
+  Airbnb.
 speakerTwo: Anna Goss
 speakerTwoImg: anna-goss.jpg
 speakerTwoJob: Lead Service Designer, GDS
 speakerTwoTwitter: "@annagoss"
-speakerTwoBio: Anna Goss is a product manager and service designer. She’s currently 
-  the lead service designer at the Government Digital Service, working on unpicking 
-  digital identity. Anna’s worked at Co-op Digital, Pivotal Labs, and With Associates 
+speakerTwoBio: Anna Goss is a product manager and service designer. She’s currently
+  the lead service designer at the Government Digital Service, working on unpicking
+  digital identity. Anna’s worked at Co-op Digital, Pivotal Labs, and With Associates
   as a product person, and refused to leave any of them until she’d shipped things.
-
 status: upcoming
 pastTitle: 
 pastWriteup: 
 pastPic: 
 pastPhotos: 
 ---
+
