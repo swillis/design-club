@@ -29,7 +29,7 @@ speakerTwoBio: Andrew is a UX Design Manager at LEGO working with the Global eCo
   and UX Design Specialist at Transport for London. He’ll be discussing some of the
   challenges of adopting design thinking at scale within large organisations, and
   how to take action to drive positive change.
-status: upcoming
+status: past
 pastTitle: 
 pastWriteup: 
 pastPic: 
