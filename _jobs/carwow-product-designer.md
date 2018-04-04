@@ -27,7 +27,7 @@ GV's Rick Klau has a great talk and write-up of how OKRs work within Google. Som
 For details on how to run as well as some extra context, check.
 <br><br>
 ### DC: Who does well in your company?
-Don't think of OKRs as a proxy for performance reviews for individual employees. 
+Don't think of OKRs as a proxy for performance reviews for individual employees.
 
 <div class="job-listing__box text-body u-margin-Tl" markdown="1">
   <p class="text-primary text-upper u-margin-Bs">How to apply</p>
