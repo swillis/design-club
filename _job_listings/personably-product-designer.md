@@ -13,7 +13,7 @@ jobDescription: ""
 jobEmail: lewis@personably.co
 ---
 
-<span class="text-heavy">This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew.  — *Team DC*</span>
+<span class="text-heavy">This is a rare opportunity to truly shape the direction of a product that real people really love. We think Personably offers an exciting design challenge, with the option to get stuck in to the nitty gritty of building a business if you like. Perfect for someone looking to have more ownership over their work, or to make the leap into the world of startups. &mdash; *Team DC*</span>
 <br><br>
 ### DC: What’s your ambition for the business?
 At Personably, we’re building tools to help teams deliver an outstanding employee
@@ -34,7 +34,7 @@ national retailers. If you’re hiring ambitious individuals ensuring they can b
 and deliver value is the key to retention.
 
 <br><br>
-### DC: What would a typical day look like?
+### DC: What would a typical day for a designer look like?
 Two days are rarely the same, and you’ll often be expected to step outside of your comfort
 zone.<br><br>
 
