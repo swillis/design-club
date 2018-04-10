@@ -30,7 +30,7 @@ speakerTwoBio: Sara is the founder and CEO of Further&More, a company built to m
   She’ll be exploring the changing workplace, and how job sharing is one of the few
   working patterns to truly support agility and diversity in business.
 status: past
-pastTitle: 
+pastTitle: From job sharing to career sharing
 pastWriteup: 
 pastPic: 
 pastPhotos: 

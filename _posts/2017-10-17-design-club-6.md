@@ -30,7 +30,7 @@ speakerTwoBio: Andrew is a UX Design Manager at LEGO working with the Global eCo
   challenges of adopting design thinking at scale within large organisations, and
   how to take action to drive positive change.
 status: past
-pastTitle: 
+pastTitle: Scaling design thinking
 pastWriteup: 
 pastPic: 
 pastPhotos: 

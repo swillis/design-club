@@ -28,8 +28,8 @@ speakerTwoBio: Anna Goss is a product manager and service designer. She’s curr
   the lead service designer at the Government Digital Service, working on unpicking
   digital identity. Anna’s worked at Co-op Digital, Pivotal Labs, and With Associates
   as a product person, and refused to leave any of them until she’d shipped things.
-status: upcoming
-pastTitle: 
+status: past
+pastTitle: Becoming something different
 pastWriteup: 
 pastPic: 
 pastPhotos: 
