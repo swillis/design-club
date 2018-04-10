@@ -19,7 +19,8 @@ layout: default
 
 <div id="trigger-header" class="site-wrapper">
 
-  {% for job_listing in site.job_listings %}
+  {% assign sorted_job_listings = (site.job_listings | sort: 'date') | reverse %}
+  {% for job_listing in sorted_job_listings %}
     {% include job-listing.html %}
   {% endfor %}
 
