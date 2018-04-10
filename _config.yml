@@ -3,10 +3,10 @@ title: Design Club
 timezone: UTC
 collections:
   posts:
-    title: Posts
+    title: posts
     output: true
-  jobs:
-    title: jobs
+  job_listings:
+    title: job_listings
     permalink: /jobs/:title
     output: true
 email: clubhouse@designclub.io
