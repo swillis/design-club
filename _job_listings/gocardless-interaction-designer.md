@@ -2,32 +2,44 @@
 layout: job
 company: GoCardless
 role: Interaction Designer
-title: Build a new payments network for the internet
-lede: A small lead-in description about this lovely opportunity. Lorem ipsum dolar sit amet dolar bacon ipsum etc.
+title: Build an online payments network
+lede: GoCardless are looking for an Interaction Designer to help them unify the world's payment networks.
 
 type: Permanent
 location: London
-salary: £40-50k
-image: carwow
+salary: Based on experience
+image: gocardless
 ---
 
 <span class="text-heavy">This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew.  — *Team DC*</span>
 <br><br>
-### DC: What’s your ambition for the business?
-Run this at the start of a project, or at specific intervals (e.g. every quarter).
 
-They can be set at company, team, and individual levels.
+### DC: What’s your ambition for the business?
+Our ambition is to build a new global network for recurring payments. We're linking together payment schemes from around the world to create a simple way of collecting payments directly from customers' bank accounts.
+
 <br><br>
 ### DC: Why should someone care?
-OKRs provide a way of ensuring that the most important things are being worked on. They also serve as a way of looking back and evaluating successes and failures — useful for setting future goals, and seeing where teams might need some extra help.
+Our software empowers businesses of all sizes to take reoccurring payments from their customer in a way that is cheaper, more sustainable and more efficient than traditional methods, while creating a better experience for the end-customer also.<br><br>
+
+We've established ourselves firmly in the UK market, and are now adding more and more countries to our platform every day. There has never been a more exciting time to join us as we expand our payments network across the globe.<br><br>
+
+Lastly, we foster and care deeply about our company culture that champions integrity and humility, and ensures that whatever we do we do it the right way.
+
 <br><br>
 ### DC: What would a typical day look like?
-GV's Rick Klau has a great talk and write-up of how OKRs work within Google. Some highlights from the post:
+A typical usually starts &mdash; after you've applied the finishing touches to your latte art on your coffee from our fancy new machine &mdash; with a stand up with the rest of your cross-functional, agile team.<br><br>
 
-For details on how to run as well as some extra context, check.
+Then the rest of your day depends on you, your process and the project you're working. Whether you're meeting customers, analysing research, creating wireframes or crafting final designs, you'll be given full autonomy to identify and solve problems as you see fit.<br><br>
+
+If you need support, it's there. We have a growing team of Product Designers who are always ready and willing to bounce ideas off, critique work and even pair on projects when needed.
+
 <br><br>
 ### DC: Who does well in your company?
-Don't think of OKRs as a proxy for performance reviews for individual employees.
+The challenges that you'll face at GoCardless are complex and on a global scale. So you need to be the type of person that likes geeking out on payment networks, schemes and all things fintech.<br><br>
+
+GoCardless is also now quite a large company, so good communication skills are essential to share concepts, context and your work across not just the product team but the many stakeholders across the company.<br><br>
+
+Lastly, you gotta be a nice person. We care deeply about company culture here and have some core company values that essentially all point toward the same thing — be a good person.
 
 <div class="job-listing__box text-body u-margin-Tl" markdown="1">
   <p class="text-primary text-upper u-margin-Bs">How to apply</p>
