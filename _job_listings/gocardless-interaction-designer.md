@@ -11,7 +11,7 @@ salary: Based on experience
 image: gocardless
 ---
 
-<span class="text-heavy">This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew.  — *Team DC*</span>
+<span class="text-heavy">GoCardless are old friends of ours. In fact, two of our founders have worked there! It's how we know that this is a great opportunity. We think it's ideal for someone who wants to focus on the complex UX challenges around APIs, integrations, and forms. It's a chance to work with truly world class designers, developers, and product people, in a supportive and fast-growing environment. &mdash; *Team DC*</span>
 <br><br>
 
 ### DC: What’s your ambition for the business?
