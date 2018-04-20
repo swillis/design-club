@@ -3,37 +3,44 @@ layout: job
 company: Lyst
 role: Product Designer
 title: Create a fashion search platform
-lede: A small lead-in description about this lovely opportunity. Lorem ipsum dolar sit amet dolar bacon ipsum etc.
+lede: Lyst are looking for collaborative product designers who want to work at the intersection of algorithms and interfaces.
 
 type: Permanent
 location: London
-salary: £60-60k
+salary: £45-60k
 image: lyst
 jobDescription: "https://lyst.workable.com/j/BA25DB2967"
-jobEmail: tom.petty@lyst.com
+jobEmail: ruairi.ogrady@lyst.com
 ---
 
-<span class="text-heavy">This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew.  — *Team DC*</span>
+<span class="text-heavy">We love the idea of blending user-centred design and data science with the exciting world of fashion! We also think the cross-functional way teams work is the ideal way to build great products that people love. This role is perfect for people who want to work closely with developers, and who are confident being the lead, sometimes only, designer on a team. &mdash; *Team DC*</span>
 <br><br>
 ### DC: What’s your ambition for the business?
-Run this at the start of a project, or at specific intervals (e.g. every quarter).
+We want to build a global fashion search engine. Somewhere that lets people shop the world's fashion in one place. Currently, finding what you want to wear is hard, and at best, complicated. You might have a favourite brand, but different sites stock different items; you might have no idea where to start and spend hours endlessly scrolling; or, you might know exactly what you want but either can't find it in the usual places, or notice that the price is different everywhere.<br><br>
 
-They can be set at company, team, and individual levels.
+We're changing that by creating the biggest inventory of fashion on the internet, from high-end to high-street. And we want to make it easy to find your needle in that haystack.
+
 <br><br>
 ### DC: Why should someone care?
-OKRs provide a way of ensuring that the most important things are being worked on. They also serve as a way of looking back and evaluating successes and failures — useful for setting future goals, and seeing where teams might need some extra help.
+It's a unique challenge for product people. Having over 4 million searchable items is great on one hand, but it can make things very confusing for people if we're not careful. Want a pair of jeans? We have 20,000. Cutting that down so that you only see the 25 most relevant pairs is hard. We're working on it through a combination of algorithms and interfaces, and as a designer, you'd be working alongside data scientists, engineers, and PMs, on mobile and web.<br><br>
+
+It's an opportunity to pair high traffic and 'big data' with the beautiful imagery of the fashion world.
+
 <br><br>
 ### DC: What would a typical day look like?
-GV's Rick Klau has a great talk and write-up of how OKRs work within Google. Some highlights from the post:
+After we've got the 'no two days are the same!' disclaimer out the way, a typical day would involve working on a specific opportunity with your squad. Squads are small, cross-functional teams of designers, developers, PMs, and maybe data scientists. As a squad, you're given a mission to work on, or a problem to crack, and it's totally up to you how you go about it. We aim for lots of autonomy, with accountability.<br><br>
 
-For details on how to run as well as some extra context, check.
+As for the environment, our office is in a big old art gallery in Hoxton Square, with amazing light and views. Most people arrive between 9am and 10am, and have a standup with their team. We have a great coffee machine, and loads of food and drink for making breakfast and elevensies. We're right in the heart of Shoreditch so there's always somewhere exciting to grab lunch, and after working some more, most people leave between 5:30pm and 6pm. Want to work from home on certain days? No problem!
+
 <br><br>
 ### DC: Who does well in your company?
-Don't think of OKRs as a proxy for performance reviews for individual employees. 
+There is no typical 'Lyster', but one trait that stands out is collaboration. The design team isn't siloed off in one corner of the building &mdash; we're embedded in squads, so building good relationships with our lovely developers and product managers is the best way to ensure you get great work done.<br><br>
+
+Also, you don't have to be a fashionista!
 
 <div class="job-listing__box text-body u-margin-Tl" markdown="1">
   <p class="text-primary text-upper u-margin-Bs">How to apply</p>
-  This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew.  — *Team DC*
+  Check out the job full job description on the link below.
 </div>
 <div class="job-listing__box--cta text-body">
   <a href="{{ page.jobDescription }}" target="_blank" class="job-listing__box--description btn btn--primary link-invert--plain text-x-small text-upper text-center">
