@@ -75,13 +75,10 @@ brand and product as the first designer at an exciting start-up.
 
 <div class="job-listing__box text-body u-margin-Tl" markdown="1">
   <p class="text-primary text-upper u-margin-Bs">How to apply</p>
-  This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew. Jobs we think are really good will get a bit of chat here? This is a personal endorsement from the Design Club crew.  — *Team DC*
+  Send us an email with a few lines so we can get to know you, your CV, and some examples of your work or portfolio. We're based in London and you would be part of the team here so you'll need to have the right to work in the UK (we can't sponsor visa's). We'll let you know when we've seen your application and get back to you!
 </div>
 <div class="job-listing__box--cta text-body">
-  <a href="{{ page.jobDescription }}" target="_blank" class="job-listing__box--description btn btn--primary link-invert--plain text-x-small text-upper text-center">
-    View job description &rarr;
-  </a>
-  <a href="mailto:{{ page.jobEmail }}" target="_blank" class="job-listing__box--apply btn--secondary link-plain text-x-small text-upper text-center">
+  <a href="mailto:{{ page.jobEmail }}" target="_blank" class="job-listing__box--apply btn btn--primary link-invert--plain text-x-small text-upper text-center" style="width:100%">
     Apply via email
   </a>
 </div>

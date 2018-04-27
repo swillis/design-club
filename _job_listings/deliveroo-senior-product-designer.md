@@ -46,7 +46,7 @@ As an extremely fast growing company, we often have to make compromises in order
 
 <div class="job-listing__box text-body u-margin-Tl" markdown="1">
   <p class="text-primary text-upper u-margin-Bs">How to apply</p>
-  Check out the job full job description on the link below.
+  Check out the full job description on the link below, and don't forget to tell them we sent you!
 </div>
 <div class="job-listing__box--cta text-body">
   <a href="{{ page.jobDescription }}" target="_blank" class="job-listing__box--description btn btn--primary link-invert--plain text-x-small text-upper text-center" style="width: 100%">
