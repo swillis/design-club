@@ -12,7 +12,7 @@ image: Deliveroo
 jobDescription: "https://boards.greenhouse.io/deliveroo/jobs/867570"
 ---
 
-<span class="text-heavy">GoCardless are old friends of ours. In fact, two of our founders have worked there! It's how we know that this is a great opportunity. We think it's ideal for someone who wants to focus on the complex UX challenges around APIs, integrations, and forms. It's a chance to work with truly world class designers, developers, and product people, in a supportive and fast-growing environment. &mdash; *Team DC*</span>
+<span class="text-heavy">This is the perfect opportunity for someone who wants to design products on a truly epic scale, and be an integral part of a finely tuned team. We love how Deliveroo have blended content, research & design into one department, meaning you'll be working side by side with the best in the business.  &mdash; *Team DC*</span>
 <br><br>
 
 ### DC: What’s your ambition for the business?
@@ -40,7 +40,7 @@ Finally, as the day draws to a close after several hours of heads-down time to p
 
 <br><br>
 ### DC: Who does well in your company?
-Something we value very deeply is intellectual humility - having a consciousness of the limits of one’s knowledge, being willing to be proven wrong, listening to and engaging with other people’s viewpoints, even if you disagree with them.<br><br>
+Something we value very deeply is intellectual humility &mdash; having a consciousness of the limits of one’s knowledge, being willing to be proven wrong, listening to and engaging with other people’s viewpoints, even if you disagree with them.<br><br>
 
 As an extremely fast growing company, we often have to make compromises in order to move quickly. So great communication skills are key here, as is the ability to execute quickly and pragmatically.
 
