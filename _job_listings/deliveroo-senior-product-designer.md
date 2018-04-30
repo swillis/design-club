@@ -47,10 +47,10 @@ As an extremely fast growing company, we often have to make compromises in order
 
 <div class="job-listing__box text-body u-margin-Tl" markdown="1">
   <p class="text-primary text-upper u-margin-Bs">How to apply</p>
-  Check out the full job description on the link below, and don't forget to tell them we sent you!
+  Check out the full job description on the link below, or send them an email directly. Don't forget to tell them we sent you!
 </div>
 <div class="job-listing__box--cta text-body">
-  <a href="{{ page.jobDescription }}" target="_blank" class="job-listing__box--description btn btn--primary link-invert--plain text-x-small text-upper text-center" style="width: 100%">
+  <a href="{{ page.jobDescription }}" target="_blank" class="job-listing__box--description btn btn--primary link-invert--plain text-x-small text-upper text-center">
     View job description &rarr;
   </a>
   <a href="mailto:{{ page.jobEmail }}" target="_blank" class="job-listing__box--apply btn--secondary link-plain text-x-small text-upper text-center">
