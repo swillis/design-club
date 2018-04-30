@@ -10,6 +10,7 @@ location: London
 salary: Based on experience
 image: Deliveroo
 jobDescription: "https://boards.greenhouse.io/deliveroo/jobs/867570"
+jobEmail: James.mountford@deliveroo.co.uk
 ---
 
 <span class="text-heavy">This is the perfect opportunity for someone who wants to design products on a truly epic scale, and be an integral part of a finely tuned team. We love how Deliveroo have blended content, research & design into one department, meaning you'll be working side by side with the best in the business.  &mdash; *Team DC*</span>
@@ -51,5 +52,8 @@ As an extremely fast growing company, we often have to make compromises in order
 <div class="job-listing__box--cta text-body">
   <a href="{{ page.jobDescription }}" target="_blank" class="job-listing__box--description btn btn--primary link-invert--plain text-x-small text-upper text-center" style="width: 100%">
     View job description &rarr;
+  </a>
+  <a href="mailto:{{ page.jobEmail }}" target="_blank" class="job-listing__box--apply btn--secondary link-plain text-x-small text-upper text-center">
+    Apply via email
   </a>
 </div>
