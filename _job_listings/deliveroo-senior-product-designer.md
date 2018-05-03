@@ -1,15 +1,15 @@
 ---
+title: Design the definitive food company
 layout: job
 company: Deliveroo
 role: Senior Product Designer
-title: Design the definitive food company
-lede: Deliveroo are looking for people to help them build products at a global scale & create the best design practice in the world.
-
+lede: Deliveroo are looking for people to help them build products at a global scale
+  & create the best design practice in the world.
 type: Permanent
 location: London
 salary: Based on experience
 image: Deliveroo
-jobDescription: "https://boards.greenhouse.io/deliveroo/jobs/867570"
+jobDescription: https://boards.greenhouse.io/deliveroo/jobs/867570
 jobEmail: James.mountford@deliveroo.co.uk
 ---
 

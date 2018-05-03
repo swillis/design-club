@@ -1,15 +1,15 @@
 ---
+title: Make onboarding amazing
 layout: job
 company: Personably
 role: Product Designer
-title: Make onboarding amazing
-lede: Personably are looking for a Product Designer to help them create better onboarding experiences for growing teams.
-
+lede: Personably are looking for a Product Designer to help them create better onboarding
+  experiences for growing teams.
 type: Permanent
 location: London
-salary: £30-55k
+salary: "£30-55k"
 image: personably
-jobDescription: ""
+jobDescription: ''
 jobEmail: lewis@personably.co
 ---
 

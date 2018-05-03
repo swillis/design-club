@@ -1,15 +1,15 @@
 ---
+title: Create a fashion search platform
 layout: job
 company: Lyst
 role: Product Designer
-title: Create a fashion search platform
-lede: Lyst are looking for collaborative product designers who want to work at the intersection of algorithms and interfaces.
-
+lede: Lyst are looking for collaborative product designers who want to work at the
+  intersection of algorithms and interfaces.
 type: Permanent
 location: London
-salary: £45-60k
+salary: "£45-60k"
 image: lyst
-jobDescription: "https://lyst.workable.com/j/BA25DB2967"
+jobDescription: https://lyst.workable.com/j/BA25DB2967
 jobEmail: ruairi.ogrady@lyst.com
 ---
 

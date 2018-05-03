@@ -1,15 +1,15 @@
 ---
+title: Build an online payments network
 layout: job
 company: GoCardless
 role: Interaction Designer
-title: Build an online payments network
-lede: GoCardless are looking for an Interaction Designer to help them unify the world's payment networks.
-
+lede: GoCardless are looking for an Interaction Designer to help them unify the world's
+  payment networks.
 type: Permanent
 location: London
 salary: Based on experience
 image: gocardless
-jobDescription: "https://boards.greenhouse.io/gocardless/jobs/202274"
+jobDescription: https://boards.greenhouse.io/gocardless/jobs/202274
 ---
 
 <span class="text-heavy">GoCardless are old friends of ours. In fact, two of our founders have worked there! It's how we know that this is a great opportunity. We think it's ideal for someone who wants to focus on the complex UX challenges around APIs, integrations, and forms. It's a chance to work with truly world class designers, developers, and product people, in a supportive and fast-growing environment. &mdash; *Team DC*</span>
