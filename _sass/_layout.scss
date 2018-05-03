@@ -35,3 +35,13 @@ img {
     padding: 0;
   }
 }
+
+.site-wrapper--job {
+  max-width: 720px;
+}
+
+@media screen and (max-width: $width-mobile) {
+  .site-wrapper--job {
+    padding: 0 $space-small;
+  }
+}

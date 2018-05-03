@@ -75,6 +75,23 @@ h3 {
   margin: 0;
 }
 
+.text-x-small {
+  font-family: $font-primary;
+  font-size: $text-x-small;
+  line-height: $line-height-small;
+  color: $color-base;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.text-base {
+  color: $color-base;
+}
+
+.text-meta {
+  color: $color-meta;
+} 
+
 .text-primary {
   color: $color-primary;
 }

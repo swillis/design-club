@@ -3,18 +3,20 @@ title: Design Club
 timezone: UTC
 collections:
   posts:
-    title: Posts
+    title: posts
     output: true
-  uploads:
-    title: Uploads
+  job_listings:
+    title: job_listings
+    permalink: /jobs/:title
     output: true
 email: clubhouse@designclub.io
 description: Where the creative community figure out what's next. Every other month
   Design Club brings together designers of all disciplines and experience for drinks,
   good times, and original talks from leaders in our field. Speakers share their work,
   careers, and distinct perspectives on the industry.
-baseurl: "/design-club-site"
+baseurl: ""
 url: http://designclub.io
 twitter_username: _DesignClub
 github_username: anothertompetty
 markdown: kramdown
+---

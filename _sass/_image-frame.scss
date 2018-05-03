@@ -1,0 +1,26 @@
+.image-frame { 
+  height: 260px;
+  width: calc(50% - 20px) !important; // override grid--right stuff
+}
+
+@media screen and (max-width: $width-medium) {
+  .image-frame {
+    width: 100% !important;
+  }
+}
+
+.image-frame--audience {
+  background: url(../img/no-event.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.image-frame--interview {
+  background: url(../img/blog/dc1-write-up.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
