@@ -7,14 +7,14 @@ layout: default
     <div class="u-margin-Bm">
       <a href="/jobs" class="link-plain">&larr; Back to jobs</a>
     </div>
-    <img src="/img/jobs/{{ page.company }}/{{ page.company }}-logo.jpg" class="job-listing__logo">
+    <img src="/img/jobs/{{ page.company | downcase }}/{{ page.company | downcase }}-logo.jpg" class="job-listing__logo">
     <h2 class="u-margin-Txs">{{ page.role }}, {{ page.company }}</h2>
     <p class="text-x-small text-meta text-upper u-margin-Txs">
       {{ page.type }}&nbsp;&nbsp;|&nbsp;&nbsp;
       {{ page.location }}&nbsp;&nbsp;|&nbsp;&nbsp;
       {{ page.salary }}
     </p>
-    <img src="/img/jobs/{{ page.company }}/{{ page.image }}.jpg" class="u-margin-Tl">
+    <img src="/img/jobs/{{ page.company | downcase }}/{{ page.image | downcase }}.jpg" class="u-margin-Tl">
   </div>
   <div class="text-medium u-margin-Tl">
     {{ content }}

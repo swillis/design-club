@@ -1,6 +1,6 @@
 <div id="event" class="job-listing">
   <div class="job-listing__img" style="
-    background: url(../img/jobs/{{ job_listing.company  }}/{{ job_listing.company }}.jpg) no-repeat center center;
+    background: url(../img/jobs/{{ job_listing.company | downcase }}/{{ job_listing.company | downcase }}.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
