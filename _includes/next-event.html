@@ -8,9 +8,9 @@
           <div class="next-event__about--content">
             <h2 class="u-margin-Bxs">{{ post.title }}!</h2>
             <p class="text-medium">
-              We’ll be back on <span class="text-heavy">{{ post.date | date: "%d %B" }}</span> at 
-              <span class="text-heavy">{{ post.venueName }}</span> in {{ post.venueLocation }}. 
-              <span class="text-heavy">Doors open at {{ post.doors }}</span>. 
+              We’ll be back on <span class="text-heavy">{{ post.date | date: "%d %B" }}</span> at
+              <span class="text-heavy">{{ post.venueName }}</span> in {{ post.venueLocation }}.
+              <span class="text-heavy">Doors open at {{ post.doors }}</span>.
               Make sure you arrive early for free drinks, free stickers, and more!
             </p>
             <p class="next-event__buy text-medium u-margin-Vs">
@@ -23,7 +23,7 @@
         </div>
       </div>
 
-      <div class="next-event__speakers u-cf">
+      <!-- <div class="next-event__speakers u-cf">
         <div class="next-event__speaker-1">
           <div class="next-event__speaker-meta u-margin-Bm">
             <img src="/img/speakers/{{ post.speakerOneImg }}" class="next-event__speaker-image">
@@ -53,7 +53,7 @@
           </div>
           <p>{{ post.speakerTwoBio }}</p>
         </div>
-      </div>
+      </div> -->
     </div>
 
   {% else %}
@@ -64,7 +64,7 @@
           <p class="text-secondary u-margin-Bm">The next event</p>
           <div class="next-event__about--content">
             <h2 class="u-margin-Bxs">Next event TBC</h2>
-            <p class="text-medium">We’ll be announcing our next event super soon. In the meantime, why not read up on our <a href="/events">past events</a>, or join the mailing list to be first in line.</p> 
+            <p class="text-medium">We’ll be announcing our next event super soon. In the meantime, why not read up on our <a href="/events">past events</a>, or join the mailing list to be first in line.</p>
           </div>
         </div>
         <div class="no-event grid__right"></div>
