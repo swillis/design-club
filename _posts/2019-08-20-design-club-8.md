@@ -10,8 +10,8 @@ ticketLink: https://www.eventbrite.co.uk/e/design-club-8-tickets-45798273870#tic
 venueName: Monzo HQ
 venueLocation: Finsbury Square
 venueAddress: 38 Finsbury Square, London, EC2A 1PX
-venueLat: '51.5202844'
-venueLong: "-0.0877046,17"
+venueLat: "51.5202844"
+venueLong: "-0.0877046"
 
 speakerOne: Details coming soon
 speakerOneImg: mystery-speaker.jpg
