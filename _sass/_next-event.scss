@@ -79,10 +79,10 @@
 }
 
 @media screen and (max-width: $width-medium) {
-  .next-event__speaker-1, 
+  .next-event__speaker-1,
   .next-event__speaker-2,
   .grid__left,
-  .grid__left--latest-blog:nth-of-type(2), 
+  .grid__left--latest-blog:nth-of-type(2),
   .grid__right {
     float: none;
     width: 100%;
@@ -114,7 +114,12 @@
 .next-event__speaker-meta--text-bottom {
   position: absolute;
   bottom: 0;
-  margin-left: 120px + $space-medium; 
+  margin-left: 120px + $space-medium;
+}
+
+.map-placeholder {
+  background-image:url('/img/map-placeholder.jpg');
+  background-size: cover;
 }
 
 .partners {
