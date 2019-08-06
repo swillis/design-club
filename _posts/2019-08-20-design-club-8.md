@@ -11,18 +11,18 @@ venueLocation: Finsbury Square
 venueAddress: 38 Finsbury Square, London, EC2A 1PX
 venueLat: "51.5202844"
 venueLong: "-0.0877046"
-speakerOne: Details coming soon
-speakerOneImg: mystery-speaker.jpg
-speakerOneJob:
-speakerOneTwitter:
-speakerOneBio:
-speakerTwo: Details coming soon
-speakerTwoImg: mystery-speaker.jpg
-speakerTwoJob:
-speakerTwoTwitter:
-speakerTwoBio: Test
+speakerOne: Charlotte Breton Schreiner
+speakerOneImg: charlotte-bs.jpg
+speakerOneJob: Product Designer at Facebook
+speakerOneTwitter: "@bretonsch"
+speakerOneBio: Charlotte is nothing short of prolific. In just 6 years she’s worked with 10+ companies, completed 70+ projects, and competed in 20+ hackathons (winning 5).
+speakerTwo: Chakib Labidi
+speakerTwoImg: chakib-labidi.jpg
+speakerTwoJob: UCD consultant, UX Playground Founder and Adobe XDI
+speakerTwoTwitter: "@UXPlayground"
+speakerTwoBio: Chakib has over 17 years creating digital products and services for clients across the globe, and is the founder of UX Playground.
 status: upcoming
-pastTitle: Becoming something different
+pastTitle:
 pastWriteup:
 pastPic:
 pastPhotos:
