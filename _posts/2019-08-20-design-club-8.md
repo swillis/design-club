@@ -1,6 +1,6 @@
 ---
 title: Design Club 8
-date: 2018-08-20 00:00:00 Z
+date: 2018-08-19 00:00:00 Z
 categories:
 - event
 layout: default
@@ -21,7 +21,7 @@ speakerTwoImg: chakib-labidi.jpg
 speakerTwoJob: UCD consultant, UX Playground Founder and Adobe XDI
 speakerTwoTwitter: "@UXPlayground"
 speakerTwoBio: Chakib has over 17 years creating digital products and services for clients across the globe, and is the founder of UX Playground.
-status: upcoming
+status: past
 pastTitle:
 pastWriteup:
 pastPic:
