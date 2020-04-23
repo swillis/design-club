@@ -5,23 +5,41 @@
       <div class="next-event__about--content">
         <h2 class="u-margin-Bxs">{{ post.pastTitle }}</h2>
         <p class="text-medium u-margin-Bs">
-          {{ post.title }} was on 
-          <span class="text-heavy">{{ post.date | date: "%d %B" }}</span> at 
-          <span class="text-heavy">{{ post.venueName }}</span> in 
-          {{ post.venueLocation }}. Check out the details below:
-        </p> 
-        <a href="{{ post.pastWriteup }}" class="text-medium u-block" target="_blank">
-        Read the full write-up &rarr;</a>
-        <a href="{{ post.pastPhotos }}" class="text-medium" target="_blank">
-        View the photos &rarr;</a>
+          {{ post.title }} was on
+          <span class="text-heavy">{{ post.date | date: "%d %B" }}</span> at
+          <span class="text-heavy">{{ post.venueName }}</span> in
+          {{ post.venueLocation }}.
+        </p>
+
+        {% if post.pastWriteup %}
+          <a href="{{ post.pastWriteup }}" class="text-medium u-block" target="_blank">Read the full write-up &rarr;</a>
+        {% endif %}
+
+        {% if post.pastPhotos %}
+          <a href="{{ post.pastPhotos }}" class="text-medium" target="_blank">View the photos &rarr;</a>
+        {% endif %}
       </div>
     </div>
-    <div class="past-event grid__right" style="
-      background: url(../img/blog/{{ post.pastPic }}) no-repeat center center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;">
-    </div>
+    {% if post.pastPic %}
+      <div class="past-event grid__right" style="
+        background: url(../img/blog/{{ post.pastPic }}) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;">
+      </div>
+    {% elsif post.youtubeURL %}
+      <div class="past-event grid__right">
+          <iframe width="100%" height="100%" src="{{post.youtubeURL}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    {% else %}
+      <div class="past-event grid__right" style="
+        background: url(../img/no-event.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;">
+      </div>
+    {% endif %}
   </div>
 </div>
