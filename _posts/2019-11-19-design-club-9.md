@@ -22,7 +22,7 @@ speakerTwoJob: Product Designer at Monzo
 speakerTwoTwitter: "@BethBrettingham"
 speakerTwoBio: 
 status: past
-pastTitle:
+pastTitle: Talks
 pastWriteup:
 pastPic:
 pastPhotos:

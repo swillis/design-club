@@ -5,6 +5,8 @@ Built in Jekyll, hosted using Github Pages
 
 ## Running instructions
 
+> Top tip: run `bundle install` first
+
 In the command line, run
 
 ```

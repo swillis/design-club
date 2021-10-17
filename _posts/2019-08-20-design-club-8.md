@@ -22,7 +22,7 @@ speakerTwoJob: UCD consultant, UX Playground Founder and Adobe XDI
 speakerTwoTwitter: "@UXPlayground"
 speakerTwoBio: Chakib has over 17 years creating digital products and services for clients across the globe, and is the founder of UX Playground.
 status: past
-pastTitle:
+pastTitle: Talks
 pastWriteup:
 pastPic:
 pastPhotos:

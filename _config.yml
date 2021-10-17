@@ -17,8 +17,9 @@ description: Where the creative community figure out what's next.
   Design Club brings together designers of all disciplines and experience for drinks,
   good times, and original talks from leaders in our field. Speakers share their work,
   careers, and distinct perspectives on the industry.
-baseurl: ''
+baseurl: ""
 url: http://designclub.io
 twitter_username: _DesignClub
 github_username: anothertompetty
 markdown: kramdown
+future: true
