@@ -9,3 +9,15 @@
 .menu li {
   display: inline-block;
 }
+
+.new-tag {
+  font-size: 10px;
+  text-transform: uppercase;
+  background-color: $color-secondary;
+  color: white;
+  border-radius: 2px;
+  position: relative;
+  line-height: 20px;
+  top: -1px;
+  padding: 0 4px;
+}
