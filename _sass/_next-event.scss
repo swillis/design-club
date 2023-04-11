@@ -1,23 +1,28 @@
 .next-event {
   overflow: auto; // to give it height!
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .next-event__about {
-  position: relative;
-  float: left;
-  width: 50%;
-  height: 260px;
+  max-width: 45%;
+  align-self: flex-start;
 }
 
 .next-event__about--content {
-  position: absolute;
   padding-right: $space-medium;
   bottom: 0;
+  p, h2 {
+    margin-bottom: 1rem;
+  }
 }
+
+
 
 .next-event__map {
   float: right;
-  width: calc(50% - 20px);
+  width: 45%;
   height: 260px;
   text-align: center;
   overflow: hidden;
